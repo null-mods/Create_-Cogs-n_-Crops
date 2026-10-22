@@ -3,11 +3,11 @@
 ### Materials
 | Done | Item | Reference |
 |---|---|---|
-|  | Plant Glue | a more gooey `slimeball` |
-|  | Makeshift Andesite Alloy | chunky `andesite_alloy` |
-|  | Raw Rubber | |
-|  | Sulfur Dust | shape of `gunpowder` |
-|  | Rubber | |
+| X | Plant Glue | a more gooey `slimeball` |
+| X | Makeshift Andesite Alloy | chunky `andesite_alloy` |
+| X | Raw Rubber | |
+| X | Sulfur Dust | shape of `gunpowder` |
+| X | Rubber | |
 
 ### Mechanisms
 Style base: `precision_mechanism` and `incomplete_precision_mechanism`.
@@ -26,7 +26,7 @@ Style base: `precision_mechanism` and `incomplete_precision_mechanism`.
 ### Story
 | Done | Item | Reference |
 |---|---|---|
-|  | Anselmo's Journal (item and cover) | `writable_book`; worn leather, a cog or wheat ear engraved on the cover; default Patchouli book for the layout |
+| X | Anselmo's Journal (item and cover) | `writable_book`; worn leather, a cog or wheat ear engraved on the cover; default Patchouli book for the layout |
 
 ### NPC skins
 | Done | Character | Reference |
@@ -68,10 +68,10 @@ Blockbench, each with its own textures. The Machines can start from the era's ca
 ## Already scripted
 | Done | Change | Script |
 |---|---|---|
-|  | Ore, raw ore and crushed ore in furnace/blast furnace give **3 nuggets** instead of 1 ingot (iron, gold, copper, zinc, tungsten) | `server_scripts/minerio_na_fornalha.js` |
-|  | Alloys only from the foundry: remove `mixing/brass_ingot` | `server_scripts/ligas_so_na_fundicao.js` |
-|  | Remove and hide metals with no source in the pack (bronze, invar, constantan, electrum, aluminum, lead, lithium, nickel, osmium, silver, tin, netherite, necromium, void steel) | `server_scripts/ligas_sem_minerio.js`, `client_scripts/ligas_sem_minerio.js` |
-|  | Wolframite generates in Overworld deepslate; crushing it gives cobbled deepslate instead of netherrack | `data/createmetallurgy/...`, `server_scripts/volframita_overworld.js` |
+| X | Ore, raw ore and crushed ore in furnace/blast furnace give **3 nuggets** instead of 1 ingot (iron, gold, copper, zinc, tungsten) | `server_scripts/minerio_na_fornalha.js` |
+| X | Alloys only from the foundry: remove `mixing/brass_ingot` | `server_scripts/ligas_so_na_fundicao.js` |
+| X | Remove and hide metals with no source in the pack (bronze, invar, constantan, electrum, aluminum, lead, lithium, nickel, osmium, silver, tin, netherite, necromium, void steel) | `server_scripts/ligas_sem_minerio.js`, `client_scripts/ligas_sem_minerio.js` |
+| X | Wolframite generates in Overworld deepslate; crushing it gives cobbled deepslate instead of netherrack | `data/createmetallurgy/...`, `server_scripts/volframita_overworld.js` |
 
 ## New items
 | Done | Item | Recipe | Yield |

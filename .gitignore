@@ -7,6 +7,14 @@ local/
 shaderpacks/
 options.txt
 patchouli_data.json
+usercache.json
+usernamecache.json
+ponders_watched_*.json
+fancymenu_data/
+config/fancymenu/user_variables.db
+config/fancymenu/legacy_checklist.txt
+config/konkrete/locals/
+config/jei/client/default/jei-debug.ini
 *.log
 *.log.gz
 
