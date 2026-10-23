@@ -1,3 +1,18 @@
+# Priorities (needs a new world)
+Settle these before creating the **final world**. Test worlds can be thrown away until then.
+
+| Done | Priority | Why |
+|---|---|---|
+| | Final IDs and namespace of every new item/block (mechanisms, machines, rubber, fertilizer, liquid fertilizer...), and whether each lives in KubeJS or the Java addon | changing an ID later deletes those items from existing worlds |
+| | Ores: turn off Inferium Ore (`mysticalagriculture-common.toml` → `generateInferiumOre`, now `true`); decide on Prosperity Ore (now `true`); Soulstone only spawns in the Nether | ore generation only applies to unexplored chunks |
+| | Ores: keep Sulfur Caves on (`vanillabackport-common.toml` → `has_sulfur_caves = true`); wolframite in deepslate already done | sulfur source; biomes only change in new chunks |
+| | Game start: starting farm with half-built machines, spawn point, letter and journal given on first join | only happens when the world is created / first joined |
+| | Starting season (`starting_sub_season = 1`) | Serene Seasons only applies it to new worlds |
+| | Village: builds, shops, Bountiful boards, vendors, Mayor's contract block | the dimension can be added later, but the content would have to be placed by hand |
+| | Final mod list (removing a mod deletes its blocks from the world; disabling only recipes is safe) | removing mods with placed blocks breaks existing worlds |
+
+**Can wait (works on an existing world):** recipes (Machine + X, mechanisms, alloys, ores in furnace, rubber, makeshift alloy), quests, prices, contracts and debt, season length, Inferium from farm animals, AgriCraft mutations, soil addon (untracked farmland starts at 7), disabling sprinklers and MA crops.
+
 # Art
 ## Draw
 ### Materials
