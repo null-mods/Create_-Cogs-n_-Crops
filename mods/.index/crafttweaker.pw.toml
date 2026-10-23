@@ -1,0 +1,18 @@
+filename = 'CraftTweaker-neoforge-1.21.1-21.0.38.jar'
+name = 'CraftTweaker'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CraftTweaker-neoforge-1.21.1-21.0.38.jar'
+
+[download]
+hash = 'dba530a29e0dd26333c1a1a82ae33942483306df'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7772819
+project-id = 239197

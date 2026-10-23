@@ -1,0 +1,21 @@
+filename = 'create_peaceful-2.0.4-neoforge-1.21.1.jar'
+name = 'Create: Peaceful'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_peaceful-2.0.4-neoforge-1.21.1.jar'
+
+[download]
+hash = '185ce8ca68981247ad249d08fd6249099908bfb6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8808330
+project-id = 1003294
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

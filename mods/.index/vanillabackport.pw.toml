@@ -1,0 +1,21 @@
+filename = 'VanillaBackport-neoforge-1.21.1-1.2.jar'
+name = 'Vanilla Backport'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'VanillaBackport-neoforge-1.21.1-1.2.jar'
+
+[download]
+hash = '214195d403f1720dc49040e4a990b37eaac529d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9243543
+project-id = 417430
+
+[[x-prismlauncher-dependencies]]
+addonId = '997634'
+type = 'REQUIRED'

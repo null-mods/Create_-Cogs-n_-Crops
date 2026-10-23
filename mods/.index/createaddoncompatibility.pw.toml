@@ -1,0 +1,25 @@
+filename = 'createaddoncompatibility-neoforge-1.21.1-1.0.0.jar'
+name = 'Create: Addon Compatibility'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Create: Addon Compatibility - v1.0.0 - Neoforge - 1.21.1'
+
+[download]
+hash = '7f6b3c61ffd85ec38435b8f7a71be4fc4ced4168'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7732927
+project-id = 1000148
+
+[[x-prismlauncher-dependencies]]
+addonId = '633823'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

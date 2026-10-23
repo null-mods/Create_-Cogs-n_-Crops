@@ -1,0 +1,21 @@
+filename = 'azimuth-1.4.10.jar'
+name = 'Azimuth API'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Azimuth 1.4.10 NeoForge 1.21.1'
+
+[download]
+hash = '911e255bd09a6bcb2ca85ea172d1812e0f4665f1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9058513
+project-id = 1466331
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

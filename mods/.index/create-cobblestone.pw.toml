@@ -1,0 +1,21 @@
+filename = 'createcobblestone-1.5.0+neoforge-1.21.1-153.jar'
+name = 'Create Cobblestone'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'createcobblestone-1.5.0+neoforge-1.21.1-153.jar'
+
+[download]
+hash = '1fbb61c9b5d99fff39fa8cb1528847feb0b1a68f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8763220
+project-id = 1023532
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'

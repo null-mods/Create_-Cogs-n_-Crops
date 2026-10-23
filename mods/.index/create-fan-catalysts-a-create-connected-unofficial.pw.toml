@@ -1,0 +1,18 @@
+filename = 'seething-catalysts-1.1.0-mc1.21.1.jar'
+name = 'Create: Fan Catalysts (a create connected unofficial port)'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'seething-catalysts-1.1.0-mc1.21.1.jar'
+
+[download]
+hash = 'f4731deff56b445ec94509ae66ea8ec3ddcfac00'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8373157
+project-id = 1566321

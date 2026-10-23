@@ -1,0 +1,29 @@
+filename = 'storagedelight-26.09.17-1.21-neoforge.jar'
+name = 'Storage Delight (Forge & Neoforge)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Storage Delight 26.09.17 - 1.21+'
+
+[download]
+hash = '1efd4c49d6f285001dae886c69fee72cd97f9945'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8908145
+project-id = 979761
+
+[[x-prismlauncher-dependencies]]
+addonId = '1501134'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '958291'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '977515'
+type = 'OPTIONAL'

@@ -1,0 +1,21 @@
+filename = 'hearthandharvest-1.21.1-1.4.1.jar'
+name = 'Hearth and Harvest'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'hearthandharvest-1.21.1-1.4.1.jar'
+
+[download]
+hash = '2cfe15e8e6cfe492e2e3d2ff19af775b8df4e321'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9235677
+project-id = 1212197
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'

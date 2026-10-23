@@ -1,0 +1,29 @@
+filename = 'create_factory-0.7b-1.21.1.jar'
+name = 'Create: Factory'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_factory-0.7b-1.21.1.jar'
+
+[download]
+hash = 'd8d406117a717a0359079b50e987f265378b05b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8653064
+project-id = 623265
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '531834'
+type = 'OPTIONAL'

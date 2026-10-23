@@ -1,0 +1,25 @@
+filename = 'croptopiadelight-1.0.1.jar'
+name = 'Croptopia Delight'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Croptopia Delight 1.21.1 v1.0.1 NeoForge'
+
+[download]
+hash = 'b3d98abfd8e61b2f9dd8d37970c74cd918d0811c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6635541
+project-id = 932098
+
+[[x-prismlauncher-dependencies]]
+addonId = '398521'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '415438'
+type = 'REQUIRED'

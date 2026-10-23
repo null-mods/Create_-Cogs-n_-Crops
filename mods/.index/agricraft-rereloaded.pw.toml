@@ -1,0 +1,57 @@
+filename = 'AgriCraft-neoforge-1.21.1-4.0.24.jar'
+name = 'AgriCraft ReReloaded'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'AgriCraft-neoforge-1.21.1-4.0.24.jar'
+
+[download]
+hash = '3f9482d5e0992c0fd2194a978e5baf655598e8ac'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9256085
+project-id = 1616052
+
+[[x-prismlauncher-dependencies]]
+addonId = '281849'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '580555'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '440979'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '308702'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '246640'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '238222'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '324717'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '714059'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '266515'
+type = 'OPTIONAL'

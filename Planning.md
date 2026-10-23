@@ -8,6 +8,8 @@
 | X | Raw Rubber | |
 | X | Sulfur Dust | shape of `gunpowder` |
 | X | Rubber | |
+| | Fertilizer | sack or pile of dark compost; `bone_meal` shape with manure palette |
+| | Liquid Fertilizer (still and flowing fluid + bucket) | brownish-green, muddy; Create fluid textures as base |
 
 ### Mechanisms
 Style base: `precision_mechanism` and `incomplete_precision_mechanism`.
@@ -68,10 +70,10 @@ Blockbench, each with its own textures. The Machines can start from the era's ca
 ## Already scripted
 | Done | Change | Script |
 |---|---|---|
-| X | Ore, raw ore and crushed ore in furnace/blast furnace give **3 nuggets** instead of 1 ingot (iron, gold, copper, zinc, tungsten) | `server_scripts/minerio_na_fornalha.js` |
-| X | Alloys only from the foundry: remove `mixing/brass_ingot` | `server_scripts/ligas_so_na_fundicao.js` |
-| X | Remove and hide metals with no source in the pack (bronze, invar, constantan, electrum, aluminum, lead, lithium, nickel, osmium, silver, tin, netherite, necromium, void steel) | `server_scripts/ligas_sem_minerio.js`, `client_scripts/ligas_sem_minerio.js` |
-| X | Wolframite generates in Overworld deepslate; crushing it gives cobbled deepslate instead of netherrack | `data/createmetallurgy/...`, `server_scripts/volframita_overworld.js` |
+| X | Ore, raw ore and crushed ore in furnace/blast furnace give **3 nuggets** instead of 1 ingot (iron, gold, copper, zinc, tungsten) | `server_scripts/ores_on_furnace.js` |
+| X | Alloys only from the foundry: remove `mixing/brass_ingot` | `server_scripts/alloys_on_foundry.js` |
+| X | Remove and hide metals with no source in the pack (bronze, invar, constantan, electrum, aluminum, lead, lithium, nickel, osmium, silver, tin, netherite, necromium, void steel) | `server_scripts/alloys_without_ores.js`, `client_scripts/alloys_without_ores.js` |
+| X | Wolframite generates in Overworld deepslate; crushing it gives cobbled deepslate instead of netherrack | `data/createmetallurgy/...`, `server_scripts/volframite_overworld.js` |
 
 ## New items
 | Done | Item | Recipe | Yield |
@@ -117,6 +119,80 @@ Blockbench, each with its own textures. The Machines can start from the era's ca
 | | Everything netherite: Create backtank and diving gear, Farmer's Delight knife, Hearth and Harvest cleaver, Sophisticated Backpacks netherite backpack and tier 4 stack upgrades, Vanilla Backport netherite armour |
 | | Wither: `entity_melting/wither_skeleton`, Brewin' Withering Dross |
 | | Dragon egg, dragon breath, nether star ( Peaceful tier III essence); Croptopia dragon egg dishes; Confectionery Ruby Chocolate |
+
+## Mystical Agriculture
+Own tier progression (tiers still used for MA tools, armour and augments). Resource seeds come only from AgriCraft mutations (see AgriCraft), with no era gate.
+
+| Done | Change | Detail |
+|---|---|---|
+| | Infusion Altar | remove the altar, the pedestals and every `seed/infusion/*` recipe |
+| | Seed crafting at the table | keep the MA option `seed_crafting_recipes_enabled` **off** |
+| | Inferium sources | only the Inferium plant and **farm animals** (cow, pig, chicken, sheep, rabbit, goat; adjust list) |
+| | Inferium ore | disable its world generation |
+| | Farm animal drops | loot modifier: chance of Inferium Essence (balance chance and amount) |
+| | MA mob drops | check if MA makes mobs drop Inferium by config; if so, limit to farm animals (no hostile mobs) |
+| | Iron, gold, copper essence | `essence/minecraft/{iron,gold,copper}_ingot`: 8 essence → **4 raw ore** instead of 4 ingots |
+| | Zinc essence | `essence/common/zinc_ingot`: 8 essence → **4 `raw_zinc`** |
+| | Tungsten seed (new) | create with MysticalCustomization; 8 essence → 4 `raw_tungsten` |
+| | Sulfur seed | add Sulfur Dust to `c:dusts/sulfur` (the MA crop only turns on when this tag has an item) |
+| | Year-round growth | add `#mysticalagriculture:crops` to `sereneseasons:year_round_crops` |
+| | Active seeds | iron, copper, gold, zinc, tungsten, coal, redstone, lapis lazuli, nether quartz, diamond, emerald, sulfur |
+| | Disable every other crop | alloys (brass, steel, bronze, invar, constantan, electrum, rose gold...), Nether/End (blaze, ghast, wither skeleton, netherite, nether, end, enderman, glowstone, basalt...), mobs, rubber |
+
+## AgriCraft
+
+| Done | Change | Detail |
+|---|---|---|
+| | Normal crops | AgriCraft optional: breed to improve seeds; normal planting stays |
+| | Mystical Agriculture | resource seeds only by mutation; Inferium stays plantable normally and is the root of the tree |
+| | Plants in AgriCraft | vanilla, Farmer's Delight, Croptopia, Hearth and Harvest, Mystical Agriculture (check if JSON plant definitions are needed) |
+| | Crop sticks and seed analyzer | era 0 (no gate) |
+| | Irrigation (tanks, channels, sprinklers) | era 2: Copper Machine + X (to be defined) |
+| | Test: Serene Seasons | do season rules still apply to crops on crop sticks? |
+| | Test: mutation format | check AgriCraft Reloaded mutation/condition JSON and that it recognises MA plants |
+
+### MA mutation tree
+Each mutation needs the **resource block under the crop sticks**. Once obtained, the seed multiplies without it. No parent pair repeats.
+
+| Done | Seed | Parents | Block below |
+|---|---|---|---|
+| | Coal | Inferium × Inferium | coal block |
+| | Copper | Inferium × Coal | copper block |
+| | Sulfur | Coal × Coal | `sulfur` (Vanilla Backport) |
+| | Iron | Coal × Copper | iron block |
+| | Redstone | Iron × Coal | redstone block |
+| | Zinc | Copper × Iron | `zinc_block` |
+| | Nether Quartz | Iron × Sulfur | quartz block |
+| | Lapis Lazuli | Redstone × Copper | lapis block |
+| | Gold | Iron × Zinc | gold block |
+| | Tungsten | Zinc × Gold | `tungsten_block` (foundry only, so it comes after era 3) |
+| | Diamond | Gold × Lapis Lazuli | diamond block |
+| | Emerald | Gold × Nether Quartz | emerald block |
+
+## Soil depletion
+Own Java mod. One value per farmland block: **fertility**.
+
+| Done | Rule | Detail |
+|---|---|---|
+| | Depletion | -1 fertility per mature harvest (by hand, Mechanical Harvester, AgriCraft crop sticks) |
+| | Visible states | fertility 4–10: farmland; 1–3: **dirt**; 0: **coarse dirt**. Changes on harvest |
+| | Crops on depleted soil | existing crops **stay planted** on tracked dirt and coarse dirt; they grow on dirt, **don't grow on coarse dirt**. New seeds only on farmland |
+| | Recovery | only fertilizers (solid and liquid); no fallow, no rotation |
+| | Dirt (1–3) | any fertilizer raises it; hoe / Create plough only works at 4+ |
+| | Coarse dirt (0) | only Fertilizer or Liquid Fertilizer recover it (becomes dirt); block the vanilla hoe conversion on tracked coarse dirt |
+| | Exempt | perennials that don't use farmland (berry bushes, sugar cane, bamboo, trees). Rich Soil and MA crops **do** deplete |
+| | Max / new farmland | 10 / 7 (4 harvests before turning into dirt; not 10 so replacing the block doesn't pay off) |
+| | Bone meal | +1 |
+| | Manure (Hearth and Harvest) | +3 |
+| | Organic Compost (Farmer's Delight) | +5 |
+| | Fertilizer (new item) | Mixer: manure + compost + Sulfur Dust; +10  |
+| | Liquid Fertilizer (new fluid) | Mixer: Fertilizer + 1000 mB water; +1 per sprinkler pass  |
+| | Automation | solid: Deployer right-click; liquid: sprinkler from Create: Things and Misc 4.1.1 |
+| | Sprinkler mixin | its tank only accepts `diluted_bonemeal` (hardcoded). Mixin: accept Liquid Fertilizer too; spraying it adds +1 fertility to tracked soil in its 5x5 area; diluted bonemeal growth must not work on coarse dirt. Pin the mod at 4.1.1 |
+| | Other sprinklers | disable: remove recipe and hide `hearthandharvest:sprinkler` and `agricraft:sprinkler` (AgriCraft tanks and channels stay) |
+| | Sprinkler era | proposal: era 2, Copper Machine + `sprinkler_head` (original recipe already uses copper casing) |
+| | Jade | show fertility when looking at farmland |
+| | Test | interaction with AgriCraft soil properties; Create plough creates farmland at 5 |
 
 ## Machine recipes (Machine + X)
 Machine + X in a crafting table (shapeless) and in the Mechanical Crafter. **Cutter** = Machine in the stonecutter, no X. The original recipe of each machine is removed.
