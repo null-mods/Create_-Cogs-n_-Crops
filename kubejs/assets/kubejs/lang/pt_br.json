@@ -4,5 +4,9 @@
   "item.kubejs.raw_rubber": "Borracha Crua",
   "item.kubejs.rubber": "Borracha",
   "item.kubejs.sulfur_dust": "Pó de Enxofre",
-  "item.kubejs.torn_journal_page": "Página Rasgada do Diário"
+  "item.kubejs.torn_journal_page": "Página Rasgada do Diário",
+  "block.kubejs.andesite_machine": "Máquina de Andesito",
+  "block.kubejs.copper_machine": "Máquina de Cobre",
+  "block.kubejs.foundry_machine": "Máquina de Fundição",
+  "block.kubejs.brass_machine": "Máquina de Latão"
 }

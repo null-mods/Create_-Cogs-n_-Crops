@@ -94,14 +94,14 @@ Style base: `precision_mechanism` and `incomplete_precision_mechanism`.
 | | Journal page images | screenshots of the machines with a paper / pencil sketch filter |
 
 ## Model
-Blockbench, each with its own textures. The Machines can start from the era's casing with a detail on top.
+Blockbench. The four Machines are **placeable decorative blocks** (KubeJS `cardinal` type: face the player, not solid, mined with a pickaxe, no function), with 3D models inspired by V2/V4/V6/V8 engines, made mechanical: Create cogwheels instead of cylinders. They reuse existing textures only (Create casings, axis, cogwheel, pipes, framed glass, electron tube; Metallurgy iron, crucible, refractory mortar; vanilla spruce and lava; our Rubber). Models in `kubejs/assets/kubejs/models/block/machines/`, registered in `startup_scripts/machines.js` with `parentModel` and a collision box sized to each model.
 
 | Done | Model | Reference |
 |---|---|---|
-| | Andesite Machine | `andesite_casing` + Kinetic Mechanism visible through a window; concept of CAB's Andesite Machine |
-| | Copper Machine | `copper_casing` + rubber gaskets and a pipe |
-| | Foundry Machine | `industrial_iron_block` + refractory bricks (`foundry_basin`) |
-| | Brass Machine | `brass_casing` + glass showing the Precision Mechanism |
+| X | Andesite Machine (`kubejs:andesite_machine`) | V2: andesite casing with recessed panels on spruce skids, one pair of cogs sunk into the top, cog output at the back; no window |
+| X | Copper Machine (`kubejs:copper_machine`) | V4: sealed round copper tank (`fluid_tank` texture) on spruce cradles with rubber pads, two rubber seal rings, rubber-sealed pipe outlet, cog output at the back; no cogs on top |
+| X | Foundry Machine (`kubejs:foundry_machine`) | V6: refractory mortar base, industrial iron body, glowing furnace door, crucible of molten metal on top; no cogs |
+| X | Brass Machine (`kubejs:brass_machine`) | V8: brass casing on brass rails, four electron tubes, wire coil and cables; no cogs |
 | | Sap Extractor: static housing | `mechanical_drill` (attached to a block, driven from the back) + `tree_tapper` (spout and bucket) |
 | | Sap Extractor: rotating blade (separate part, for animation) | rubber tapper's knife (spiral cut in the bark); Mechanical Drill head for the fitting |
 | | Sap Extractor: item model | block model in item pose, like Create's items |
@@ -140,10 +140,10 @@ Blockbench, each with its own textures. The Machines can start from the era's ca
 | | Sealed Mechanism | crafting: Rubber + Kinetic Mechanism + Rubber (row) | 1 |
 | | Incomplete Refractory Mechanism | crafting: Sealed Mechanism + refractory mortar + graphite | 1 |
 | | Refractory Mechanism | sequenced assembly: Spout 1000 mB lava, Spout 1000 mB lava, Press | 1 |
-| | Andesite Machine | Andesite Casing surrounded by 8 Kinetic Mechanisms | 1 |
-| | Copper Machine | Copper Casing surrounded by 8 Sealed Mechanisms | 1 |
-| | Foundry Machine | Industrial Iron Block surrounded by 8 Refractory Mechanisms | 1 |
-| | Brass Machine | Brass Casing surrounded by 8 Precision Mechanisms | 1 |
+| | Andesite Machine | Andesite Casing surrounded by 8 Kinetic Mechanisms. **Placeholder in `server_scripts/machines.js`** until the mechanism exists: Andesite Casing + 4 Andesite Alloy (corners) + 4 Cogwheels | 1 |
+| | Copper Machine | Copper Casing surrounded by 8 Sealed Mechanisms. **Placeholder:** Copper Casing + 4 Rubber (corners) + 4 Fluid Pipes | 1 |
+| | Foundry Machine | Industrial Iron Block surrounded by 8 Refractory Mechanisms. **Placeholder:** Industrial Iron Block + 4 Refractory Mortar (corners) + 4 Steel Ingots | 1 |
+| X | Brass Machine | Brass Casing surrounded by 8 Precision Mechanisms (`server_scripts/machines.js`) | 1 |
 | | Sap Extractor | Copper Machine + `tree_tapper` | 1 |
 
 ## Changed recipes

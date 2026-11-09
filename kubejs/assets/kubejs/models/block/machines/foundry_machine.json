@@ -1,0 +1,1212 @@
+{
+ "textures": {
+  "casing": "createmetallurgy:block/industrial_iron_block",
+  "crucible": "createmetallurgy:block/industrial_crucible/crucible",
+  "glow": "minecraft:block/lava_still",
+  "mortar": "createmetallurgy:block/refractory_mortar",
+  "particle": "createmetallurgy:block/industrial_iron_block"
+ },
+ "elements": [
+  {
+   "name": "plinth",
+   "from": [
+    2.5,
+    0,
+    2.5
+   ],
+   "to": [
+    13.5,
+    1.5,
+    13.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      11.0,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      11.0,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      11.0,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      11.0,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      11.0,
+      11.0
+     ],
+     "texture": "#mortar"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      11.0,
+      11.0
+     ],
+     "texture": "#mortar"
+    }
+   }
+  },
+  {
+   "name": "lower",
+   "from": [
+    3,
+    1.5,
+    3
+   ],
+   "to": [
+    13,
+    3,
+    13
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      10,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      10,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      10,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      10,
+      1.5
+     ],
+     "texture": "#mortar"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      10,
+      10
+     ],
+     "texture": "#mortar"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      10,
+      10
+     ],
+     "texture": "#mortar"
+    }
+   }
+  },
+  {
+   "name": "upper_core",
+   "from": [
+    4.6,
+    3.75,
+    4.6
+   ],
+   "to": [
+    11.4,
+    6.25,
+    11.4
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      6.8,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      6.8,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      6.8,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      6.8,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "upper_base",
+   "from": [
+    4,
+    3,
+    4
+   ],
+   "to": [
+    12,
+    3.75,
+    12
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "upper_rim",
+   "from": [
+    4,
+    6.25,
+    4
+   ],
+   "to": [
+    12,
+    7,
+    12
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      8,
+      0.75
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "upper_post_1",
+   "from": [
+    4,
+    3.75,
+    4
+   ],
+   "to": [
+    5.25,
+    6.25,
+    5.25
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "upper_post_2",
+   "from": [
+    10.75,
+    3.75,
+    4
+   ],
+   "to": [
+    12.0,
+    6.25,
+    5.25
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "upper_post_3",
+   "from": [
+    4,
+    3.75,
+    10.75
+   ],
+   "to": [
+    5.25,
+    6.25,
+    12.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "upper_post_4",
+   "from": [
+    10.75,
+    3.75,
+    10.75
+   ],
+   "to": [
+    12.0,
+    6.25,
+    12.0
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      2.5
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      1.25,
+      1.25
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "crucible_neck",
+   "from": [
+    5.5,
+    7,
+    5.5
+   ],
+   "to": [
+    10.5,
+    8,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1
+     ],
+     "texture": "#casing"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1
+     ],
+     "texture": "#casing"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1
+     ],
+     "texture": "#casing"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1
+     ],
+     "texture": "#casing"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#casing"
+    }
+   }
+  },
+  {
+   "name": "crucible_wall_front",
+   "from": [
+    4.5,
+    8,
+    4.5
+   ],
+   "to": [
+    11.5,
+    9.5,
+    5.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.0
+     ],
+     "texture": "#crucible"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.0
+     ],
+     "texture": "#crucible"
+    }
+   }
+  },
+  {
+   "name": "crucible_wall_back",
+   "from": [
+    4.5,
+    8,
+    10.5
+   ],
+   "to": [
+    11.5,
+    9.5,
+    11.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.0
+     ],
+     "texture": "#crucible"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      7.0,
+      1.0
+     ],
+     "texture": "#crucible"
+    }
+   }
+  },
+  {
+   "name": "crucible_wall_left",
+   "from": [
+    4.5,
+    8,
+    5.5
+   ],
+   "to": [
+    5.5,
+    9.5,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      5.0
+     ],
+     "texture": "#crucible"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      5.0
+     ],
+     "texture": "#crucible"
+    }
+   }
+  },
+  {
+   "name": "crucible_wall_right",
+   "from": [
+    10.5,
+    8,
+    5.5
+   ],
+   "to": [
+    11.5,
+    9.5,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      1.5
+     ],
+     "texture": "#crucible"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      5.0
+     ],
+     "texture": "#crucible"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      1.0,
+      5.0
+     ],
+     "texture": "#crucible"
+    }
+   }
+  },
+  {
+   "name": "crucible_floor",
+   "from": [
+    5.5,
+    8,
+    5.5
+   ],
+   "to": [
+    10.5,
+    8.5,
+    10.5
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      0.5
+     ],
+     "texture": "#crucible"
+    },
+    "south": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      0.5
+     ],
+     "texture": "#crucible"
+    },
+    "east": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      0.5
+     ],
+     "texture": "#crucible"
+    },
+    "west": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      0.5
+     ],
+     "texture": "#crucible"
+    },
+    "up": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      5.0
+     ],
+     "texture": "#crucible"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      5.0,
+      5.0
+     ],
+     "texture": "#crucible"
+    }
+   }
+  },
+  {
+   "name": "molten_metal",
+   "from": [
+    5.5,
+    9.1,
+    5.5
+   ],
+   "to": [
+    10.5,
+    9.1,
+    10.5
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      0,
+      0,
+      5,
+      5
+     ],
+     "texture": "#glow"
+    }
+   }
+  },
+  {
+   "name": "furnace_door",
+   "from": [
+    6,
+    0.25,
+    2.4
+   ],
+   "to": [
+    10,
+    2.75,
+    2.4
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      4,
+      2.5
+     ],
+     "texture": "#glow"
+    }
+   }
+  }
+ ],
+ "display": {
+  "gui": {
+   "rotation": [
+    30,
+    225,
+    0
+   ],
+   "translation": [
+    0,
+    1.71,
+    0
+   ],
+   "scale": [
+    0.88,
+    0.88,
+    0.88
+   ]
+  },
+  "ground": {
+   "translation": [
+    0,
+    3,
+    0
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "fixed": {
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "head": {
+   "translation": [
+    0,
+    6,
+    0
+   ],
+   "scale": [
+    0.8,
+    0.8,
+    0.8
+   ]
+  },
+  "thirdperson_righthand": {
+   "rotation": [
+    75,
+    45,
+    0
+   ],
+   "translation": [
+    0,
+    4,
+    0
+   ],
+   "scale": [
+    0.765,
+    0.765,
+    0.765
+   ]
+  },
+  "thirdperson_lefthand": {
+   "rotation": [
+    75,
+    225,
+    0
+   ],
+   "translation": [
+    0,
+    4,
+    0
+   ],
+   "scale": [
+    0.765,
+    0.765,
+    0.765
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0,
+    45,
+    0
+   ],
+   "translation": [
+    0,
+    4.5,
+    0
+   ],
+   "scale": [
+    0.85,
+    0.85,
+    0.85
+   ]
+  },
+  "firstperson_lefthand": {
+   "rotation": [
+    0,
+    225,
+    0
+   ],
+   "translation": [
+    0,
+    4.5,
+    0
+   ],
+   "scale": [
+    0.85,
+    0.85,
+    0.85
+   ]
+  }
+ }
+}
