@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "cTc",
+    "BEB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "c": {
+      "tag": "c:chests/wooden"
+    },
+    "T": {
+      "item": "create:chute"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "E": {
+      "tag": "c:ender_pearls"
+    }
+  },
+  "result": {
+    "id": "toms_storage:inventory_connector"
+  }
+}

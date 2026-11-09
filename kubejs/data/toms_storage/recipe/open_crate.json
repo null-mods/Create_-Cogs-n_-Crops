@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"PSP",
+    "PCP",
+    "PTP"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "S": {
+      "item": "create:andesite_funnel"
+    },
+    "T": {
+      "tag": "minecraft:trapdoors"
+    }
+  },
+  "result": {
+    "id": "toms_storage:open_crate"
+  }
+}

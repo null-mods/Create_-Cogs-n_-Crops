@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	" S ",
+    "NWN",
+    " S "
+  ],
+  "key": {
+  	"N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "W": {
+    	"tag": "minecraft:wool"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "toms_storage:item_filter",
+    "count": 1
+  }
+}

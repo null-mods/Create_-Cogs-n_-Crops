@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "PSP"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+    "item": "toms_storage:ts.inventory_cable_connector"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "id": "toms_storage:ts.inventory_cable_connector_filtered"
+  }
+}

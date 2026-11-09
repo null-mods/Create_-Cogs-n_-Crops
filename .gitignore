@@ -26,3 +26,5 @@ mods/*.disabled
 kubejs/config/web_server.json
 kubejs/exported/
 kubejs/probe/
+
+command_history.txt

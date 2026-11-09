@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "XTX",
+    "#X#"
+  ],
+  "key": {
+    "X": {
+      "item": "create:andesite_funnel"
+    },
+    "T": {
+      "item": "create:andesite_tunnel"
+    },
+    "#": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "toms_storage:trim",
+    "count": 2
+  }
+}

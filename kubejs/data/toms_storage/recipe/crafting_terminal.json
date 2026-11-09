@@ -1,0 +1,89 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "toms_storage:storage_terminal"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "toms_storage:crafting_terminal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:storage_terminal"
+        },
+        [
+          {
+            "item": "minecraft:crafting_table"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "toms_storage:storage_terminal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:storage_terminal"
+        },
+        [
+          {
+            "tag": "minecraft:buttons"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "toms_storage:storage_terminal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:storage_terminal"
+        },
+        [
+          {
+            "item": "create:electron_tube"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "toms_storage:storage_terminal"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "toms_storage:storage_terminal"
+        },
+        [
+          {
+            "item": "create:crafter_slot_cover"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "toms_storage:crafting_terminal"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "toms_storage:storage_terminal"
+  }
+}

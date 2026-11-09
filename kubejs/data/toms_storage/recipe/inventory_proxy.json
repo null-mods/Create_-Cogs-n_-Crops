@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NTN",
+    "TCT",
+    "NTN"
+  ],
+  "key": {
+    "N": {
+      "item": "create:brass_nugget"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "T": {
+      "tag": "minecraft:trapdoors"
+    }
+  },
+  "result": {
+    "id": "toms_storage:inventory_proxy"
+  }
+}

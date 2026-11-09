@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " C ",
+  "BFB"
+  ],
+  "key": {
+  	"F": {
+  		"item": "toms_storage:item_filter"
+  	},
+  	"C": {
+  		"item": "minecraft:comparator"
+  	},
+  	"B": {
+  		"item": "create:brass_nugget"
+  	}
+  },
+  "result": {
+    "id": "toms_storage:polymorphic_item_filter",
+    "count": 1
+  }
+}

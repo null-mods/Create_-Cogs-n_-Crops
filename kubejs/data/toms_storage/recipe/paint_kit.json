@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"RGB",
+    "iS ",
+    "a  "
+  ],
+  "key": {
+  	"S": {
+      "item": "create:iron_sheet"
+    },
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "R": {
+      "tag": "c:dyes/red"
+    },
+    "G": {
+      "tag": "c:dyes/green"
+    },
+    "B": {
+      "tag": "c:dyes/blue"
+    },
+    "i": {
+    	"tag": "c:dyes/black"
+    }
+  },
+  "result": {
+    "id": "toms_storage:paint_kit",
+    "count": 1
+  }
+}

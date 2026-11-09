@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"PCP",
+    "aGg",
+    "SES"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "a": {
+      "item": "minecraft:spyglass"
+    },
+    "C": {
+      "item": "create:redstone_link"
+    },
+    "E": {
+      "item": "create:display_link"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "g": {
+      "tag": "c:glass_blocks"
+    },
+    "S": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "result": {
+    "id": "toms_storage:wireless_terminal"
+  }
+}

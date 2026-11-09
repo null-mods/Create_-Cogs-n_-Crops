@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " aB",
+    "CcT",
+    " aB"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "c": {
+      "item": "create:crafter_slot_cover"
+    },
+    "C": {
+      "item": "toms_storage:inventory_cable"
+    },
+    "T": {
+      "item": "create:brass_tunnel"
+    },
+    "a": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "toms_storage:inventory_cable_connector"
+  }
+}
