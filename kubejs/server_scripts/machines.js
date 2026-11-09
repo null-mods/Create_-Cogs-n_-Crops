@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
 
   event.shaped('kubejs:foundry_machine', ['ABA', 'BCB', 'ABA'], {
     A: 'createmetallurgy:refractory_mortar',
-    B: 'createmetallurgy:steel_ingot',
+    B: 'create:iron_sheet',
     C: 'create:industrial_iron_block'
   }).id('kubejs:crafting/foundry_machine')
 

@@ -142,7 +142,7 @@ Blockbench. The four Machines are **placeable decorative blocks** (KubeJS `cardi
 | | Refractory Mechanism | sequenced assembly: Spout 1000 mB lava, Spout 1000 mB lava, Press | 1 |
 | | Andesite Machine | Andesite Casing surrounded by 8 Kinetic Mechanisms. **Placeholder in `server_scripts/machines.js`** until the mechanism exists: Andesite Casing + 4 Andesite Alloy (corners) + 4 Cogwheels | 1 |
 | | Copper Machine | Copper Casing surrounded by 8 Sealed Mechanisms. **Placeholder:** Copper Casing + 4 Rubber (corners) + 4 Fluid Pipes | 1 |
-| | Foundry Machine | Industrial Iron Block surrounded by 8 Refractory Mechanisms. **Placeholder:** Industrial Iron Block + 4 Refractory Mortar (corners) + 4 Steel Ingots | 1 |
+| | Foundry Machine | Industrial Iron Block surrounded by 8 Refractory Mechanisms. **Placeholder:** Industrial Iron Block + 4 Refractory Mortar (corners) + 4 Iron Sheets (no steel: steel comes from the foundry itself) | 1 |
 | X | Brass Machine | Brass Casing surrounded by 8 Precision Mechanisms (`server_scripts/machines.js`) | 1 |
 | | Sap Extractor | Copper Machine + `tree_tapper` | 1 |
 
