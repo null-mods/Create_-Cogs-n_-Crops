@@ -1,21 +1,21 @@
-filename = 'electroenergetics-1.21.1-1.1.4.jar'
-name = 'Create: Electro Energetics'
+filename = 'Stagecoach-neoforge-1.21.1-1.2.1.jar'
+name = "Feelix's Stagecoach"
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'electroenergetics-1.21.1-1.1.4.jar'
+x-prismlauncher-version-number = 'Stagecoach-neoforge-1.21.1-1.2.1.jar'
 
 [download]
-hash = 'e2e7dfa11767d17920571e1c7d2c37211421539c'
+hash = '8ba1d9f218ab6122004aa9af290a1a997e3a3177'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9173792
-project-id = 1443327
+file-id = 9234370
+project-id = 1711971
 
 [[x-prismlauncher-dependencies]]
-addonId = '328085'
+addonId = '388172'
 type = 'REQUIRED'

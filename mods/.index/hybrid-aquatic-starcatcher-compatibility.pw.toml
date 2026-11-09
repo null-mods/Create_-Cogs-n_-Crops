@@ -1,0 +1,25 @@
+filename = 'hybrid_aquatic_starcatcher_compat-0.6.3.jar'
+name = 'Hybrid Aquatic + Starcatcher Compatibility'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.6.3'
+
+[download]
+hash = 'f7b93b6e1656dd3fd4421861ec255b74cd46bc2a36b59d98ec0f9ff4dd79b9a63d0ae43e15d5311f055c045f4c234a474d91b6af1fd631da6826be884f3daedc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/onrvj8TH/versions/q2eXOCoH/hybrid_aquatic_starcatcher_compat-0.6.3.jar'
+
+[update.modrinth]
+mod-id = 'onrvj8TH'
+version = 'q2eXOCoH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'HH4FjUqN'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'h2jXvxNR'
+type = 'REQUIRED'

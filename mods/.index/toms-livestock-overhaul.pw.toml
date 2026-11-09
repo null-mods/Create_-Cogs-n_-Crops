@@ -1,0 +1,18 @@
+filename = 'tomslivestockoverhaul-1.0.0.1.jar'
+name = "Tom's Livestock Overhaul"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0.1'
+
+[download]
+hash = '3e011128af6545bddbcd50079c808b62470de3fd00949dda03a0632f0d08aff5dc7e4a49c1fa921b47fc71f2421373f30e1e88d338e8309dd4004fe9b34a6762'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ehyZsIlv/versions/eH6b5XqA/tomslivestockoverhaul-1.0.0.1.jar'
+
+[update.modrinth]
+mod-id = 'ehyZsIlv'
+version = 'eH6b5XqA'
