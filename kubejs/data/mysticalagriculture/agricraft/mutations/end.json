@@ -1,0 +1,6 @@
+{
+  "chance": 0.05,
+  "child": "mysticalagriculture:end",
+  "parent1": "mysticalagriculture:obsidian",
+  "parent2": "mysticalagriculture:air"
+}

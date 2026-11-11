@@ -1,0 +1,6 @@
+{
+  "chance": 0.2,
+  "child": "mysticalagriculture:chicken",
+  "parent1": "mysticalagriculture:inferium",
+  "parent2": "croptopia:corn"
+}

@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "child": "croptopia:coffee",
+  "parent1": "croptopia:blackbean",
+  "parent2": "minecraft:sugar_cane"
+}

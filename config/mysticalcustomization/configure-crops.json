@@ -1,1 +1,230 @@
-{}
+{
+  "mysticalagriculture:aluminum": {
+    "enabled": false
+  },
+  "mysticalagriculture:amethyst_bronze": {
+    "enabled": false
+  },
+  "mysticalagriculture:aquamarine": {
+    "enabled": false
+  },
+  "mysticalagriculture:blazing_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:bronze": {
+    "enabled": false
+  },
+  "mysticalagriculture:certus_quartz": {
+    "enabled": false
+  },
+  "mysticalagriculture:cobalt": {
+    "enabled": false
+  },
+  "mysticalagriculture:compressed_iron": {
+    "enabled": false
+  },
+  "mysticalagriculture:conductive_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:constantan": {
+    "enabled": false
+  },
+  "mysticalagriculture:copper_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:cyanite": {
+    "enabled": false
+  },
+  "mysticalagriculture:dark_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:draconium": {
+    "enabled": false
+  },
+  "mysticalagriculture:electrum": {
+    "enabled": false
+  },
+  "mysticalagriculture:elementium": {
+    "enabled": false
+  },
+  "mysticalagriculture:end_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:enderium": {
+    "enabled": false
+  },
+  "mysticalagriculture:energetic_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:energized_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:fiery_ingot": {
+    "enabled": false
+  },
+  "mysticalagriculture:fluix": {
+    "enabled": false
+  },
+  "mysticalagriculture:fluorite": {
+    "enabled": false
+  },
+  "mysticalagriculture:flux_infused_gem": {
+    "enabled": false
+  },
+  "mysticalagriculture:flux_infused_ingot": {
+    "enabled": false
+  },
+  "mysticalagriculture:grains_of_infinity": {
+    "enabled": false
+  },
+  "mysticalagriculture:hepatizon": {
+    "enabled": false
+  },
+  "mysticalagriculture:hop_graphite": {
+    "enabled": false
+  },
+  "mysticalagriculture:invar": {
+    "enabled": false
+  },
+  "mysticalagriculture:iridium": {
+    "enabled": false
+  },
+  "mysticalagriculture:ironwood": {
+    "enabled": false
+  },
+  "mysticalagriculture:knightmetal": {
+    "enabled": false
+  },
+  "mysticalagriculture:lumium": {
+    "enabled": false
+  },
+  "mysticalagriculture:manasteel": {
+    "enabled": false
+  },
+  "mysticalagriculture:manyullyn": {
+    "enabled": false
+  },
+  "mysticalagriculture:nickel": {
+    "enabled": false
+  },
+  "mysticalagriculture:niotic_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:osmium": {
+    "enabled": false
+  },
+  "mysticalagriculture:peridot": {
+    "enabled": false
+  },
+  "mysticalagriculture:pig_iron": {
+    "enabled": false
+  },
+  "mysticalagriculture:platinum": {
+    "enabled": false
+  },
+  "mysticalagriculture:pulsating_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:quartz_enriched_iron": {
+    "enabled": false
+  },
+  "mysticalagriculture:queens_slime": {
+    "enabled": false
+  },
+  "mysticalagriculture:redstone_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:refined_glowstone": {
+    "enabled": false
+  },
+  "mysticalagriculture:refined_obsidian": {
+    "enabled": false
+  },
+  "mysticalagriculture:rock_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:rose_gold": {
+    "enabled": false
+  },
+  "mysticalagriculture:ruby": {
+    "enabled": false
+  },
+  "mysticalagriculture:sapphire": {
+    "enabled": false
+  },
+  "mysticalagriculture:signalum": {
+    "enabled": false
+  },
+  "mysticalagriculture:silver": {
+    "enabled": false
+  },
+  "mysticalagriculture:sky_stone": {
+    "enabled": false
+  },
+  "mysticalagriculture:slimesteel": {
+    "enabled": false
+  },
+  "mysticalagriculture:soularium": {
+    "enabled": false
+  },
+  "mysticalagriculture:spirited_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:starmetal": {
+    "enabled": false
+  },
+  "mysticalagriculture:steeleaf": {
+    "enabled": false
+  },
+  "mysticalagriculture:terrasteel": {
+    "enabled": false
+  },
+  "mysticalagriculture:tin": {
+    "enabled": false
+  },
+  "mysticalagriculture:uraninite": {
+    "enabled": false
+  },
+  "mysticalagriculture:uranium": {
+    "enabled": false
+  },
+  "mysticalagriculture:vibrant_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:yellorium": {
+    "enabled": false
+  },
+  "mysticalagriculture:lead": {
+    "enabled": false
+  },
+  "mysticalagriculture:apatite": {
+    "enabled": false
+  },
+  "mysticalagriculture:basalz": {
+    "enabled": false
+  },
+  "mysticalagriculture:blitz": {
+    "enabled": false
+  },
+  "mysticalagriculture:blizz": {
+    "enabled": false
+  },
+  "mysticalagriculture:limestone": {
+    "enabled": false
+  },
+  "mysticalagriculture:marble": {
+    "enabled": false
+  },
+  "mysticalagriculture:menril": {
+    "enabled": false
+  },
+  "mysticalagriculture:saltpeter": {
+    "enabled": false
+  },
+  "mysticalagriculture:silicon": {
+    "enabled": false
+  },
+  "mysticalagriculture:rubber": {
+    "enabled": false
+  }
+}

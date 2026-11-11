@@ -46,9 +46,9 @@
 #World generation options.
 [World]
 	#Should Prosperity Ore generate in the world?
-	generateProsperityOre = true
+	generateProsperityOre = false
 	#Should Inferium Ore generate in the world?
-	generateInferiumOre = true
+	generateInferiumOre = false
 	#Should Soulstone generate in the world?
 	generateSoulstone = true
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.

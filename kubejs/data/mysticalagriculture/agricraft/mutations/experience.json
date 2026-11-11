@@ -1,0 +1,6 @@
+{
+  "chance": 0.1,
+  "child": "mysticalagriculture:experience",
+  "parent1": "mysticalagriculture:inferium",
+  "parent2": "mysticalagriculture:lapis_lazuli"
+}

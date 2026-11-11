@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:remove_spawns",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "entity_types": [
+    "minecraft:pig",
+    "minecraft:chicken",
+    "minecraft:cow",
+    "minecraft:sheep",
+    "minecraft:bee",
+    "minecraft:goat",
+    "minecraft:horse",
+    "minecraft:donkey",
+    "minecraft:mule"
+  ]
+}

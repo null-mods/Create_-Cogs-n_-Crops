@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "child": "mysticalagriculture:nether_quartz",
+  "parent1": "mysticalagriculture:iron",
+  "parent2": "mysticalagriculture:sulfur"
+}

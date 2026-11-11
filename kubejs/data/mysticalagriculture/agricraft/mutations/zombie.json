@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "child": "mysticalagriculture:zombie",
+  "parent1": "mysticalagriculture:cow",
+  "parent2": "mysticalagriculture:dirt"
+}

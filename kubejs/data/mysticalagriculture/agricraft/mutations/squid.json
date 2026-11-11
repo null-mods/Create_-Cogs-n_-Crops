@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "child": "mysticalagriculture:squid",
+  "parent1": "mysticalagriculture:fish",
+  "parent2": "mysticalagriculture:water"
+}

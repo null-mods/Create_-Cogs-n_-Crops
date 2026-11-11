@@ -1,0 +1,6 @@
+{
+  "chance": 0.05,
+  "child": "mysticalagriculture:blaze",
+  "parent1": "mysticalagriculture:fire",
+  "parent2": "mysticalagriculture:nether"
+}

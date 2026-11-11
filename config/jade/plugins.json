@@ -18,7 +18,7 @@
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
     "item_frame": true,
-    "crop_progress": true,
+    "crop_progress": false,
     "command_block": true,
     "mob_growth": true,
     "waxed": true,
@@ -52,8 +52,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "create_mobile_packages": {
-    "bee_port": true
+  "agricraft": {
+    "soil": true,
+    "crop_block": true
   },
   "jade_access": {
     "held_item": true,
@@ -61,6 +62,22 @@
     "block": true,
     "entity": true,
     "entity_variant": true
+  },
+  "ftbquests": {
+    "barrier": true
+  },
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
+  },
+  "stagecoach": {
+    "coach": true
+  },
+  "create_item_drawers": {
+    "display.upgrade": true,
+    "main": true,
+    "display.empty": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -73,7 +90,18 @@
     "block_properties": false,
     "mod_name": true
   },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
   "balm": {
     "jade": true
+  },
+  "productivebees": {
+    "bee": true,
+    "solitary_nest": true,
+    "canvas_beehive": true,
+    "bee_attributes": true
   }
 }

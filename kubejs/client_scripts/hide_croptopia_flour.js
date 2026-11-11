@@ -1,4 +1,11 @@
 RecipeViewerEvents.removeEntries('item', event => {
   event.remove('croptopia:flour')
   event.remove('hearthandharvest:flour')
+  event.remove('merchant_orders:trade_crate')
+  event.remove('agricraft:irrigation_tank')
+  event.remove('agricraft:irrigation_channel')
+  event.remove('agricraft:irrigation_channel_hollow')
+  event.remove('agricraft:channel_valve')
+  event.remove('agricraft:sprinkler')
+  event.remove('hearthandharvest:sprinkler')
 })

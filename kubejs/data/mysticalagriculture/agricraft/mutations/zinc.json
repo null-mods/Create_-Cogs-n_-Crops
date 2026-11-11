@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "child": "mysticalagriculture:zinc",
+  "parent1": "mysticalagriculture:copper",
+  "parent2": "mysticalagriculture:iron"
+}

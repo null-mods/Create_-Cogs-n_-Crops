@@ -1,0 +1,6 @@
+{
+  "chance": 0.0,
+  "child": "agricraft:plombean",
+  "parent1": "agricraft:ferranium",
+  "parent2": "minecraft:brown_mushroom"
+}

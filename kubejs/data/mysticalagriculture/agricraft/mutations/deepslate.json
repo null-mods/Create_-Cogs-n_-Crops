@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "child": "mysticalagriculture:deepslate",
+  "parent1": "mysticalagriculture:stone",
+  "parent2": "mysticalagriculture:iron"
+}

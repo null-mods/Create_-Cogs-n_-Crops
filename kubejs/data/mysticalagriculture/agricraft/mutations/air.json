@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "child": "mysticalagriculture:air",
+  "parent1": "mysticalagriculture:inferium",
+  "parent2": "minecraft:oxeye_daisy"
+}

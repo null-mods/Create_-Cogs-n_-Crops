@@ -1,0 +1,6 @@
+{
+  "chance": 0.35,
+  "child": "croptopia:asparagus",
+  "parent1": "croptopia:celery",
+  "parent2": "croptopia:leek"
+}

@@ -1,0 +1,6 @@
+{
+  "chance": 0.2,
+  "child": "mysticalagriculture:sheep",
+  "parent1": "mysticalagriculture:inferium",
+  "parent2": "minecraft:white_tulip"
+}

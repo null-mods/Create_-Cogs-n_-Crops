@@ -1,0 +1,6 @@
+{
+  "chance": 0.1,
+  "child": "mysticalagriculture:honey",
+  "parent1": "mysticalagriculture:nature",
+  "parent2": "minecraft:sweet_berries"
+}

@@ -1,0 +1,6 @@
+{
+  "fluid.create_things_and_misc.diluted_bonemeal": "Diluted Fertilizer",
+  "block.create_things_and_misc.diluted_bonemeal": "Diluted Fertilizer",
+  "fluid_type.create_things_and_misc.diluted_bonemeal": "Diluted Fertilizer",
+  "block.create_things_and_misc.sprinkler.description_0": "§2The sprinkler spreads §a1000 mB of diluted fertilizer§2 over a §a5x5 area§2."
+}

@@ -1,0 +1,6 @@
+{
+  "chance": 0.0,
+  "child": "agricraft:carbonation",
+  "parent1": "agricraft:lapender",
+  "parent2": "minecraft:wither_rose"
+}

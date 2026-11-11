@@ -1,0 +1,6 @@
+{
+  "chance": 0.05,
+  "child": "mysticalagriculture:wither_skeleton",
+  "parent1": "mysticalagriculture:skeleton",
+  "parent2": "mysticalagriculture:nether"
+}

@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "child": "mysticalagriculture:basalt",
+  "parent1": "mysticalagriculture:fire",
+  "parent2": "mysticalagriculture:stone"
+}

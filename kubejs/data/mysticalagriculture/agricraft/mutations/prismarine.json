@@ -1,0 +1,6 @@
+{
+  "chance": 0.1,
+  "child": "mysticalagriculture:prismarine",
+  "parent1": "mysticalagriculture:coral",
+  "parent2": "mysticalagriculture:lapis_lazuli"
+}

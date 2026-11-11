@@ -1,0 +1,6 @@
+{
+  "chance": 0.1,
+  "child": "mysticalagriculture:amethyst",
+  "parent1": "mysticalagriculture:stone",
+  "parent2": "mysticalagriculture:lapis_lazuli"
+}

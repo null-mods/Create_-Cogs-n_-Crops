@@ -1,0 +1,6 @@
+{
+  "chance": 0.35,
+  "child": "croptopia:rutabaga",
+  "parent1": "croptopia:turnip",
+  "parent2": "croptopia:cabbage"
+}
