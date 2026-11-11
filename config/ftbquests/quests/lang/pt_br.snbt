@@ -1,0 +1,502 @@
+{
+	chapter.1E005F30C8509856.title: "Challenges"
+	chapter.2B2DC7DAEE302EE3.title: "Automation Timeline"
+	chapter.317BA35A84E61CEB.title: "Campos"
+	chapter.3795BA1F2F184224.title: "0. Prologue"
+	chapter.4ADEA23F7184D454.title: "Celeiro"
+	chapter.525BA569BC2A0B13.title: "The Pack"
+	chapter.56E6F527AC1CE74D.title: "Village"
+	chapter.5C0234DC4B2D451C.title: "Cozinha"
+	chapter.790678448D85F856.title: "Debt"
+	chapter.7E7EA259445D8B3A.title: "Tips n' Tricks"
+	chapter_group.51563BFE36C68C2A.title: "História"
+	chapter_group.6DADF142678F1F9D.title: "Extras"
+	chapter_group.791C7C4D35DAA570.title: "Info"
+	quest.007BBB1C5FA0B199.quest_desc: ["O aspersor só aceita isto: saco de fertilizante e água no misturador."]
+	quest.007BBB1C5FA0B199.title: "Fertilizante diluído"
+	quest.00BD900794489BBD.quest_desc: ["Uma linha de montagem sequencial que não para."]
+	quest.00BD900794489BBD.title: "Mecanismo de Precisão"
+	quest.00DA22784744F5AF.quest_desc: ["&7Trigo, cenoura e batata o mato ainda dá. O resto, só cruzando ou comprando."]
+	quest.00DA22784744F5AF.title: "Sementes do mato"
+	quest.010B79DA2EAED5BF.quest_desc: [
+		"Cada colheita tira fertilidade do solo. A terra arada gasta vira terra comum, e o solo esgotado vira terra grossa."
+		"Recupere com esterco, composto ou adubo."
+	]
+	quest.010B79DA2EAED5BF.title: "Terra cansada"
+	quest.022FEBA9A241A56A.quest_desc: ["Borracha crua e pó de enxofre no misturador aquecido. Sem borracha não há junta que vede, e sem vedação a era do cobre não começa."]
+	quest.022FEBA9A241A56A.title: "Borracha"
+	quest.02B6D0C9CE310AC1.quest_desc: ["O minério moído derrete na fornalha em três pepitas. Lingote inteiro, só na fundição."]
+	quest.02B6D0C9CE310AC1.title: "Pepitas"
+	quest.02DB0CF96F23196B.quest_desc: ["Marca um trecho e repete o padrão por uma área inteira: fileiras de plantação, cercas, pisos."]
+	quest.02DB0CF96F23196B.title: "Esquema de padrão"
+	quest.04AFF521B4DD37AA.quest_desc: [
+		"Cada máquina de cobre pede oito destes."
+		""
+		"Vira tarefa de item quando este item existir."
+	]
+	quest.04AFF521B4DD37AA.title: "Mecanismo Vedado"
+	quest.056E35E362B8BEB1.quest_desc: ["&7De vez em quando, um animal da fazenda deixa cair uma essência verde. Guarde: ela abre o último segredo dos campos."]
+	quest.056E35E362B8BEB1.title: "Essência de Inferium"
+	quest.0617F9982F051967.quest_desc: [
+		"Seu avô Anselmo deixou a fazenda, um diário cheio de máquinas pela metade e uma dívida enorme com o Barão Ferrugem."
+		"Pague a dívida, mecanize a fazenda e ajude Contrapeso, a vila vizinha, a se reerguer."
+	]
+	quest.0617F9982F051967.title: "Bem-vindo a Cogs n' Crops"
+	quest.06383446B7697100.quest_desc: ["Carvão e cobre."]
+	quest.06383446B7697100.title: "Ferro"
+	quest.07D729B862C8C898.quest_desc: ["Variações de folhas, flores e plantas."]
+	quest.07D729B862C8C898.title: "Bancada do botânico"
+	quest.07DD09C24379D778.quest_desc: ["Fertilizante nos crafters mecânicos, um deployer aplica na terra, uma broca recolhe o composto e o ventilador com água faz a terra rica."]
+	quest.07DD09C24379D778.title: "Terra rica em série"
+	quest.085C2BD5047559F2.quest_desc: ["Fogo e Elemento Terra."]
+	quest.085C2BD5047559F2.title: "Nether"
+	quest.0863A5C925E6B388.quest_desc: [
+		"Antes de você partir, o Prefeito avisou: &aas ferramentas do seu avô ficaram no galpão."
+		"São de pedra e já viram dias melhores, mas dão conta do começo."
+	]
+	quest.0863A5C925E6B388.title: "Ferramentas no galpão"
+	quest.095E62F7363D3EDA.quest_desc: ["Carvão e Enxofre."]
+	quest.095E62F7363D3EDA.title: "Fogo"
+	quest.0A5A89A6B2170792.quest_desc: [
+		"O Barão Ferrugem para o cavalo na porteira e nem desce."
+		"&a\"A primeira parcela vence no fim da primavera.\""
+	]
+	quest.0A5A89A6B2170792.title: "A visita do Barão"
+	quest.0C351154E07B2F67.quest_desc: [
+		"A vila fica a uma viagem de diligência. As lojas estão fechadas, sufocadas pelos preços do Barão."
+		"Ajude os moradores e as lojas reabrem, uma a uma."
+	]
+	quest.0C351154E07B2F67.title: "Contrapeso"
+	quest.0CCDB0A942343E54.quest_desc: ["Natureza e bagas doces."]
+	quest.0CCDB0A942343E54.title: "Mel"
+	quest.0DE2B2D9799FFDAD.quest_desc: ["A pedra não arranha o ferro. Com uma picareta de cobre já dá para minerá-lo."]
+	quest.0DE2B2D9799FFDAD.title: "Picareta de cobre"
+	quest.0E2084BD723E8B52.quest_desc: ["Num trem ou num pistão, a colheitadeira passa pelo campo e colhe tudo que está maduro, sem arrancar o pé."]
+	quest.0E2084BD723E8B52.title: "Colheitadeira"
+	quest.0F6495BFEAFE8BCB.quest_desc: ["Ar e Ghast."]
+	quest.0F6495BFEAFE8BCB.title: "Breeze"
+	quest.10FB1DF10CC22425.quest_desc: ["Coloque um blueprint na parede e marque uma receita nele. Depois, é só clicar para fabricar com o que estiver no inventário."]
+	quest.10FB1DF10CC22425.title: "Blueprint de crafting"
+	quest.1104569EE6A61D20.quest_desc: ["Terra, palha, farinha de osso e casca de árvore. Use numa terra comum para transformá-la em composto."]
+	quest.1104569EE6A61D20.title: "Fertilizante"
+	quest.11175000C507CAF0.quest_desc: ["Um Tree Tapper no tronco recolhe a seiva das árvores. Encha um balde. No inverno quase não escorre nada."]
+	quest.11175000C507CAF0.title: "Seiva"
+	quest.11AB1DFB9E7D4C89.quest_desc: [
+		"O Barão cobra uma parcela por estação, oito no total, e cada uma dobra a anterior."
+		"O que atrasar volta na estação seguinte com 25% de juros. Não dá para adiantar parcelas. Veja a aba Debt."
+	]
+	quest.11AB1DFB9E7D4C89.title: "A dívida"
+	quest.11CF10DBCF062906.quest_desc: [
+		"O Inferium e as plantas de minério só crescem em terra molhada e bem adubada: terra arada perto da água ou terra rica arada."
+		"Elas crescem em qualquer estação."
+	]
+	quest.11CF10DBCF062906.title: "Terra para o Inferium"
+	quest.11D5E11CAF1F62FB.quest_desc: ["A vila fica longe e nem sempre a diligência está à mão. Um bom cavalo e um lugar para dormir encurtam o caminho."]
+	quest.11D5E11CAF1F62FB.title: "Viagem e descanso"
+	quest.1262F141A4873946.quest_desc: ["Água e Ar."]
+	quest.1262F141A4873946.title: "Gelo"
+	quest.13A1EC114AD19E97.quest_desc: ["As gavetas guardam muito de um item só e mostram o que tem dentro. Ótimas para colheita e para o fim de uma esteira."]
+	quest.13A1EC114AD19E97.title: "Gavetas"
+	quest.1433ECDD4C8A71E4.quest_desc: ["Fogo e Pedra."]
+	quest.1433ECDD4C8A71E4.title: "Basalto"
+	quest.15A371DD6A5DA61F.quest_desc: ["Terra e Pedra."]
+	quest.15A371DD6A5DA61F.title: "Elemento Terra"
+	quest.16385F364B0203E2.quest_desc: ["Um ventilador sopra através de um bloco para processar itens: água lava, lava funde. Com um catalisador vazio na frente do ventilador, o processamento não depende do bloco no mundo. Encha o catalisador para escolher o tipo."]
+	quest.16385F364B0203E2.title: "Catalisador de ventilador"
+	quest.1754D3ABF19F259E.quest_desc: ["Inferium e dente-de-leão."]
+	quest.1754D3ABF19F259E.title: "Coelho"
+	quest.178C89AA3470DDB2.quest_desc: ["Cobre e zinco derretidos na fundição: o único jeito de ter latão."]
+	quest.178C89AA3470DDB2.title: "Latão"
+	quest.1791640A5E35D3BF.quest_desc: ["Ligue seus baús e gavetas a um terminal e veja tudo num lugar só, em vez de abrir baú por baú."]
+	quest.1791640A5E35D3BF.title: "Terminal de armazenamento"
+	quest.18B2142FD6CD6ABE.quest_desc: ["Variações de vidro e vitrais."]
+	quest.18B2142FD6CD6ABE.title: "Soprador de vidro"
+	quest.1B1A7F685B0B47CB.quest_desc: ["A ferramenta da mesa de tear: troca a variação de lã e carpetes já colocados."]
+	quest.1B1A7F685B0B47CB.title: "Agulhas"
+	quest.1BDBAB7689BFAB08.quest_desc: ["Inferium cruzado com carvão. A essência vira minério bruto e segue para o rebolo."]
+	quest.1BDBAB7689BFAB08.title: "Cobre que nasce do chão"
+	quest.1C89FBCE29272E5A.quest_desc: ["Oito essências na bancada viram quatro minérios brutos. Daí é rebolo e fornalha, como qualquer minério."]
+	quest.1C89FBCE29272E5A.title: "Essência em minério"
+	quest.1E98B4BF365EFF4B.quest_desc: ["Água no catalisador, por balde ou spout. Lava minério triturado e outros itens sem precisar de uma fonte de água ao lado."]
+	quest.1E98B4BF365EFF4B.title: "Catalisador de lavagem"
+	quest.1F5F56CA41F0ABDD.quest_desc: ["Vincule à sua conta do Numismatics. No Selling Bin, ele deposita as vendas direto no banco."]
+	quest.1F5F56CA41F0ABDD.title: "Cartão de banco"
+	quest.2017CB360356D0F5.quest_desc: ["Pregue a corda e prego em duas paredes e pendure a rede entre elas. Ela deixa você descansar durante o dia e pular para a noite."]
+	quest.2017CB360356D0F5.title: "Rede"
+	quest.201E3EFAF50E72AC.quest_desc: ["Plantas em terra rica crescem mais rápido, e os cogumelos se espalham nela."]
+	quest.201E3EFAF50E72AC.title: "Terra rica"
+	quest.20D1320F9FE7D461.quest_desc: ["Peixe e Água."]
+	quest.20D1320F9FE7D461.title: "Lula"
+	quest.20FC1912D687A3DE.quest_desc: ["Inferium e Lápis-lazúli."]
+	quest.20FC1912D687A3DE.title: "Experiência"
+	quest.2523925F7D64313D.quest_desc: [
+		"A progressão tem quatro eras: Andesito, Cobre, Metalurgia e Latão."
+		"Cada era tem um Mecanismo e uma Máquina. As máquinas saem da Máquina da era mais um item, ou do cortador de pedra."
+	]
+	quest.2523925F7D64313D.title: "Eras e máquinas"
+	quest.2595080854A31353.quest_desc: [
+		"&7Trigo e cenoura lado a lado, com um suporte vazio no meio. Às vezes nasce ali uma planta que não é nenhuma das duas."
+		"&7Foi assim que eu comecei a plantar minério."
+	]
+	quest.2595080854A31353.title: "Sementes de Inferium"
+	quest.259C0446C03E1652.quest_desc: ["Seiva no misturador vira borracha crua. Sem seiva, cipós ou flores prensados com água também servem."]
+	quest.259C0446C03E1652.title: "Borracha crua"
+	quest.269F970A88F0D7FD.quest_desc: ["Fogo e Água."]
+	quest.269F970A88F0D7FD.title: "Obsidiana"
+	quest.26E7A44699206D0B.quest_desc: ["Inferium e milho."]
+	quest.26E7A44699206D0B.title: "Galinha"
+	quest.27FC05262B16AAEF.quest_desc: ["Redstone e Cobre."]
+	quest.27FC05262B16AAEF.title: "Lápis-lazúli"
+	quest.28C3BF25294D2956.quest_desc: ["Passe o mouse num item e aperte R para ver a receita, ou U para ver onde ele é usado."]
+	quest.28C3BF25294D2956.title: "Visualizador de receitas"
+	quest.28D1DEC23D253ECC.quest_desc: ["Analise uma semente com o caderno no analisador e ela fica anotada, com as mutações que conhece."]
+	quest.28D1DEC23D253ECC.title: "Caderno agrícola"
+	quest.28D7D002E980FCAB.quest_desc: ["Zumbi e Natureza."]
+	quest.28D7D002E980FCAB.title: "Aranha"
+	quest.2981CE56B38FF09E.quest_desc: ["Fogo e Nether."]
+	quest.2981CE56B38FF09E.title: "Blaze"
+	quest.2A8CDEA530220C99.quest_desc: ["O Sophisticated Backpacks dá armazenamento portátil. Faça uma e pare de correr até os baús."]
+	quest.2A8CDEA530220C99.title: "Uma mochila"
+	quest.2D2D9A75A84E928F.quest_desc: ["Elemento Terra e Água."]
+	quest.2D2D9A75A84E928F.title: "Natureza"
+	quest.2DA8F071EDFFF1F3.quest_desc: [
+		"The Pack: do que se trata este modpack."
+		"Tips n' Tricks: itens úteis que não são obrigatórios."
+		"Debt: pague as parcelas do Barão e veja quanto falta para a próxima."
+		"Prologue: os primeiros dias na fazenda, até o moinho."
+		"Andesite, Copper e Brass Age: as máquinas e a automação de cada era. A fundição começa na Copper Age; as ligas ficam na Brass Age."
+		"Village: ajude os moradores de Contrapeso e pegue os contratos do Prefeito."
+		"Challenges: metas longas ou difíceis, para quando você quiser mais."
+	]
+	quest.2DA8F071EDFFF1F3.title: "Visão geral do livro"
+	quest.2E47D5B14010B92E.quest_desc: [
+		"Descanso não resolve: só adubo devolve a força da terra."
+		"Farinha de osso recupera um pouco, esterco mais, composto bastante, e o fertilizante recupera tudo."
+		"Terra grossa só volta com fertilizante."
+	]
+	quest.2E47D5B14010B92E.title: "Recuperando o solo"
+	quest.2F294891C97F350E.quest_desc: ["Ar e Esqueleto."]
+	quest.2F294891C97F350E.title: "Phantom"
+	quest.2F88A6A36C957441.quest_desc: [
+		"Cada estação dura 36 dias. A maioria das plantas só cresce bem na própria estação."
+		"O inverno não tem colheita: guarde comida ou monte uma estufa antes que ele chegue."
+	]
+	quest.2F88A6A36C957441.title: "Estações"
+	quest.2FB698EA36BC30C1.quest_desc: [
+		"A Essência de Inferium cai dos animais de fazenda. Cruze plantas nos suportes do AgriCraft para mutar o Inferium em sementes de recurso."
+		"Cada mutação só pede as duas plantas certas lado a lado."
+	]
+	quest.2FB698EA36BC30C1.title: "Plantando minério"
+	quest.3114E9ED2B7CD3C4.quest_desc: ["Pedra e Ferro."]
+	quest.3114E9ED2B7CD3C4.title: "Ardosiabissal"
+	quest.31BD6DC23E8DDDFA.quest_desc: ["Ferro e Carvão."]
+	quest.31BD6DC23E8DDDFA.title: "Redstone"
+	quest.3272F2BB84CF2BFF.quest_desc: ["Variações de velas e blocos mais exóticos."]
+	quest.3272F2BB84CF2BFF.title: "Bancada de alquimia"
+	quest.32A2950016F53D1E.quest_desc: ["Tem máquinas quebradas espalhadas pelo terreno. Desmonte-as para recuperar material, ou cave andesito você mesmo."]
+	quest.32A2950016F53D1E.title: "Andesito"
+	quest.3353A049B98268C3.quest_desc: [
+		"Cogs n' Crops é um pack centrado no Create e guiado por uma história."
+		"Siga as quests: elas contam a história da fazenda e mostram o próximo passo."
+	]
+	quest.3353A049B98268C3.title: "Boas-vindas"
+	quest.3382F947730F28D4.quest_desc: ["A mesma ideia da mesa do pedreiro, para madeira."]
+	quest.3382F947730F28D4.title: "Mesa do carpinteiro"
+	quest.33999D6A6F48A5A0.quest_desc: [
+		"Argamassa e grafite, depois duas doses de lava no Spout e uma prensa."
+		""
+		"Vira tarefa de item quando este item existir."
+	]
+	quest.33999D6A6F48A5A0.title: "Mecanismo Refratário"
+	quest.34BE759CE67878AD.quest_desc: ["Ardosiabissal e Experiência."]
+	quest.34BE759CE67878AD.title: "Sculk"
+	quest.34D55A0273D3B13B.quest_desc: ["Chove dentro, a porta não fecha e falta luz."]
+	quest.34D55A0273D3B13B.title: "Reformando a casa"
+	quest.350149046DC53C74.quest_desc: ["Neve em pó no catalisador. Congela itens que pedem frio."]
+	quest.350149046DC53C74.title: "Catalisador de congelamento"
+	quest.3570EBE994890152.quest_desc: ["Um deployer com sementes na mão replanta onde a colheitadeira passou."]
+	quest.3570EBE994890152.title: "Plantando sozinho"
+	quest.3577D823F2A58A1F.quest_desc: ["O Gerador Mecânico do Create Cobblestone faz pedregulho com força rotacional, sem lava e água."]
+	quest.3577D823F2A58A1F.title: "Gerador de pedregulho"
+	quest.35F13AB972E151DA.quest_desc: ["Inferium e batata."]
+	quest.35F13AB972E151DA.title: "Terra"
+	quest.35F4E5268D04D3DE.quest_desc: ["Água e ervas marinhas."]
+	quest.35F4E5268D04D3DE.title: "Peixe"
+	quest.3652B43D0F48A054.quest_desc: ["Inferium e cenoura."]
+	quest.3652B43D0F48A054.title: "Porco"
+	quest.36935C2EEFF38C14.quest_desc: ["Pedra e Lápis-lazúli."]
+	quest.36935C2EEFF38C14.title: "Ametista"
+	quest.36FE27912C977DAF.quest_desc: ["O enxofre das cavernas, moído no moinho ou nas rodas de moagem."]
+	quest.36FE27912C977DAF.title: "Pó de enxofre"
+	quest.375633AE1162F5B4.quest_desc: ["&7Farinha e água fazem uma cola que segura quase qualquer coisa. Fica feio e segura bem."]
+	quest.375633AE1162F5B4.title: "Cola de amido"
+	quest.3A97EC59E0F991EA.quest_desc: ["Corta um pedaço da planta sem arrancá-la, para tirar uma semente sem perder o pé."]
+	quest.3A97EC59E0F991EA.title: "Tesoura de poda"
+	quest.3B4B2EB6F739344A.quest_desc: ["A fazenda não precisa ser só funcional. Estes blocos e ferramentas ajudam a deixar tudo com a sua cara."]
+	quest.3B4B2EB6F739344A.title: "Decoração"
+	quest.3B9D9017DECF6301.quest_desc: [
+		"Venda a produção no Selling Bin em moedas do Numismatics. Um cartão de banco no encaixe manda o dinheiro direto para a conta."
+		"As lojas da vila e os contratos do Prefeito pagam melhor."
+	]
+	quest.3B9D9017DECF6301.title: "Ganhando dinheiro"
+	quest.3BA528CAA14D94E0.quest_desc: ["Crescimento, ganho e resistência: o analisador mostra o que cada semente carrega."]
+	quest.3BA528CAA14D94E0.title: "Analisador de sementes"
+	quest.3D1785459437A310.quest_desc: [
+		"Cada colheita cansa a terra. Depois de algumas, a terra arada vira terra comum, e depois terra grossa."
+		"Na terra comum a planta que já estava ali ainda cresce, mas não dá para plantar de novo. Na terra grossa nada cresce."
+	]
+	quest.3D1785459437A310.title: "Solo esgotado"
+	quest.3D636E03E2DF9D90.quest_desc: ["Esqueleto e Nether."]
+	quest.3D636E03E2DF9D90.title: "Esqueleto Wither"
+	quest.3D6B1CD571DFF150.quest_desc: ["Inferium e ervas marinhas."]
+	quest.3D6B1CD571DFF150.title: "Água"
+	quest.3E2BF61FBFC47B2F.quest_desc: ["Feitos de hastes de ferro. As plantas de minério só crescem nestes."]
+	quest.3E2BF61FBFC47B2F.title: "Suportes de ferro"
+	quest.3F1E7B6F3481567B.quest_desc: [
+		"Minério na fornalha rende só um terço de lingote. Moa, lave e derreta para render tudo."
+		"Ligas como latão e aço só saem da fundição."
+	]
+	quest.3F1E7B6F3481567B.title: "Metais"
+	quest.404057C6857A05C4.quest_desc: ["O misturador transforma andesito e pepitas em liga, duas por andesito. Chega de colar à mão."]
+	quest.404057C6857A05C4.title: "Liga de andesito"
+	quest.4133664950DB50EE.quest_desc: ["O cinzel troca a variação de um bloco já colocado, sem precisar quebrar."]
+	quest.4133664950DB50EE.title: "Cinzel"
+	quest.42ACB114BD5B9636.quest_desc: ["Coloque um suporte duplo entre duas plantas maduras. Com o tempo, nasce ali uma muda que mistura as duas, às vezes melhor que os pais."]
+	quest.42ACB114BD5B9636.title: "Cruzamento"
+	quest.434185195CB0B141.quest_desc: ["A ferramenta da bancada de alquimia: troca a variação dos blocos dela já colocados."]
+	quest.434185195CB0B141.title: "Livro de alquimia"
+	quest.44CF18AA75E03B7F.quest_desc: ["A serra troca a variação de blocos de madeira já colocados."]
+	quest.44CF18AA75E03B7F.title: "Serra"
+	quest.44CFCDA2144658F5.quest_desc: ["Lava no catalisador. Funde e cozinha itens em série, sem lava solta perto da fazenda."]
+	quest.44CFCDA2144658F5.title: "Catalisador de fundição"
+	quest.450BB87366393D23.quest_desc: ["O curral está vazio."]
+	quest.450BB87366393D23.title: "Fale com o Prefeito sobre a Betsy"
+	quest.4649F442DB270551.quest_desc: [
+		"Achou um bug ou teve uma ideia? Fale com o autor do pack."
+		"Anote o que você estava fazendo e, se puder, mande o log do jogo."
+	]
+	quest.4649F442DB270551.title: "Feedback e bugs"
+	quest.465CB65E1059EBD5.quest_desc: ["O painel e o degrau copycat do Create assumem a aparência de qualquer bloco que você colocar neles. O Copycats+ acrescenta dezenas de formatos: escadas, lajes, vigas, portas e mais."]
+	quest.465CB65E1059EBD5.title: "Copycat"
+	quest.46C932294A6BDC9E.quest_desc: ["Anote listas de itens e configurações. Dá para copiar a configuração de uma máquina e colar em outra."]
+	quest.46C932294A6BDC9E.title: "Prancheta"
+	quest.474B4717DBB69825.quest_desc: ["Durma em qualquer lugar sem mudar o ponto de renascimento. Bom para viagens longas até a vila."]
+	quest.474B4717DBB69825.title: "Saco de dormir"
+	quest.498F99FA525BB613.quest_desc: ["Colheitadeira e arado mecânicos num campo: trigo sem mexer um dedo."]
+	quest.498F99FA525BB613.title: "Trigo"
+	quest.499ED2C43F305928.quest_desc: ["Peixe e pepino-do-mar."]
+	quest.499ED2C43F305928.title: "Tartaruga"
+	quest.49F0495531E124A0.quest_desc: ["A peça que espalha a água."]
+	quest.49F0495531E124A0.title: "Cabeça de aspersor"
+	quest.4A30B9634C94BDB2.quest_desc: ["Ferro e zinco."]
+	quest.4A30B9634C94BDB2.title: "Ouro"
+	quest.4A580C985C377653.quest_desc: ["Carvão com carvão."]
+	quest.4A580C985C377653.title: "Enxofre"
+	quest.4ADE3ABA5646D3CC.quest_desc: ["&7A umidade comeu meu calendário."]
+	quest.4ADE3ABA5646D3CC.title: "Cana-de-açúcar"
+	quest.4BD3BDE1142DC3A8.quest_desc: ["Inferium e margarida."]
+	quest.4BD3BDE1142DC3A8.title: "Ar"
+	quest.4C09C82CF825E220.quest_desc: ["Ferro e Enxofre."]
+	quest.4C09C82CF825E220.title: "Quartzo do Nether"
+	quest.4E17B6D14A4FA66A.quest_desc: ["Massa no forno, pão na mesa. É simples, mas mata a fome e vende bem na vila."]
+	quest.4E17B6D14A4FA66A.title: "Pão caseiro"
+	quest.51B589D41DB5D5BD.quest_desc: ["Minério inteiro não derrete. Segure o minério e clique com o botão direito num rebolo para moê-lo. Às vezes sai um pouco de experiência junto."]
+	quest.51B589D41DB5D5BD.title: "Moer antes de fundir"
+	quest.520ADD013BE409ED.quest_desc: [
+		"Plante nos suportes em vez de direto na terra. É neles que as sementes se cruzam."
+		"Só a serra mecânica corta a madeira fina o bastante para eles."
+	]
+	quest.520ADD013BE409ED.title: "Suportes de cultivo"
+	quest.524DCB4B751E5402.quest_desc: ["Moa, lave e derreta. Só a fornalha rende um terço de lingote."]
+	quest.524DCB4B751E5402.title: "Ferro"
+	quest.5256060E39A0EB60.quest_desc: ["O cobre aflora nas encostas. É o primeiro metal que dá para trabalhar sem uma forja de verdade."]
+	quest.5256060E39A0EB60.title: "Cobre"
+	quest.52D3E8718115DD9A.quest_desc: [
+		"Cada passo desta linha é algo que a fazenda já deveria produzir sozinha naquele ponto."
+		"Junte a quantidade pedida e siga em frente."
+	]
+	quest.52D3E8718115DD9A.title: "O caminho da automação"
+	quest.54084E41181C37E7.quest_desc: ["Com a era do cobre, a água chega ao campo por cano. Uma bomba puxa do rio até onde for preciso."]
+	quest.54084E41181C37E7.title: "Água encanada"
+	quest.542802BC37F04DA0.quest_desc: ["Ligado a um cano, o aspersor rega e aduba uma área inteira de uma vez."]
+	quest.542802BC37F04DA0.title: "Aspersor"
+	quest.550F68270707965C.quest_desc: ["Uma cruz de madeira perto da casa. Ninguém passa por ali há semanas."]
+	quest.550F68270707965C.title: "O túmulo do Anselmo"
+	quest.558F3E500EFB9D6B.quest_desc: ["Ferramentas para montar as receitas antes de produzir."]
+	quest.558F3E500EFB9D6B.title: "Planejamento"
+	quest.568A4E31C201148E.quest_desc: ["&7Se você está lendo isto, eu já não estou aí para explicar. O Barão vai cobrar, e vai cobrar caro. Guarde este caderno: está tudo aqui, das sementes às máquinas."]
+	quest.568A4E31C201148E.title: "A carta"
+	quest.57DE5EB529948EBA.quest_desc: ["Carregue um esquema pronto e ele constrói tudo sozinho, tirando os blocos de um baú ao lado e gastando pólvora. Neste pack ele sai da Máquina de Latão com um dispensador."]
+	quest.57DE5EB529948EBA.title: "Canhão de esquemas"
+	quest.58526A8A4746A182.quest_desc: ["Fogo e Redstone."]
+	quest.58526A8A4746A182.title: "Pedra Luminosa"
+	quest.590F70D6F4DFE8BC.quest_desc: ["Todo upgrade de mochila começa numa Base de Upgrade. Faça uma e veja no visualizador de receitas no que ela pode virar."]
+	quest.590F70D6F4DFE8BC.title: "Base de upgrade"
+	quest.5917538C06A2D476.quest_desc: ["Zumbi e Pedra."]
+	quest.5917538C06A2D476.title: "Esqueleto"
+	quest.59CD7B331C3F32C0.quest_desc: ["&7Andesito colado segura as pontas por um tempo. Quando tiver um misturador, faça a liga direito."]
+	quest.59CD7B331C3F32C0.title: "Liga improvisada"
+	quest.5A0E3B26850860EA.quest_desc: ["A diligência deixa você na praça de Contrapeso. O Prefeito dá os pêsames, sem jeito."]
+	quest.5A0E3B26850860EA.title: "Chegada a Contrapeso"
+	quest.5A41C25C295DB396.quest_desc: ["Coral e Lápis-lazúli."]
+	quest.5A41C25C295DB396.title: "Prismarinho"
+	quest.5A51DBBBC6704964.quest_desc: ["Duas por tronco. Uma serra renderia mais."]
+	quest.5A51DBBBC6704964.title: "Tábuas"
+	quest.5A890FF4987EEBF2.quest_desc: [
+		"&7Eu passei a vida trocando sementes com os vizinhos e guardando as melhores. Os campos são o coração da fazenda."
+		"&7Aqui está tudo que aprendi sobre fazer a terra render mais."
+	]
+	quest.5A890FF4987EEBF2.title: "Os campos do vovô"
+	quest.5B40AB5CAE313395.quest_desc: ["Coloque pedra na mesa do pedreiro e escolha entre dezenas de variações do mesmo bloco."]
+	quest.5B40AB5CAE313395.title: "Mesa do pedreiro"
+	quest.5CCBA855405EB7AC.quest_desc: ["A ferramenta da bancada do botânico: troca a variação de plantas e folhas já colocadas."]
+	quest.5CCBA855405EB7AC.title: "Regador"
+	quest.5D8D170B1BE85393.quest_desc: ["Com o tempo o composto vira terra rica. Perto de água e cogumelos vai mais rápido, e na frente de um ventilador com água vira na hora."]
+	quest.5D8D170B1BE85393.title: "Composto"
+	quest.5E78EEFAEDDDFC5C.quest_desc: ["A diligência sai da praça e para na porteira da fazenda do seu avô. Quando quiser voltar a Contrapeso, é só subir de novo."]
+	quest.5E78EEFAEDDDFC5C.title: "A diligência"
+	quest.5FF344B05CB4190E.quest_desc: [
+		"Hexágono: história."
+		"Círculo: missão comum."
+		"Engrenagem: abre outra linha de missões."
+		"Diamante: desafio."
+		""
+		"&aVerde&r: alguém falando."
+		"&7Cinza&r: escrito no diário do seu avô."
+		"Cor normal: todo o resto."
+	]
+	quest.5FF344B05CB4190E.title: "Formatos e cores"
+	quest.60B6400E59BE7635.quest_desc: ["Inferium e trigo."]
+	quest.60B6400E59BE7635.title: "Vaca"
+	quest.617CF4432BE08428.quest_desc: ["A ferramenta da mesa do funileiro: troca a variação de lanternas e peças de metal já colocadas."]
+	quest.617CF4432BE08428.title: "Multímetro"
+	quest.6400540E76A302D9.quest_desc: ["O campo ainda tem um pouco de trigo. Colha, guarde as sementes e plante de novo. Tudo nesta fazenda começa no trigo."]
+	quest.6400540E76A302D9.title: "Trigo"
+	quest.6425E5992D98CF96.quest_desc: ["Tira uma planta inteira do suporte e leva para outro lugar."]
+	quest.6425E5992D98CF96.title: "Pá de jardinagem"
+	quest.655BA6AB650FA198.quest_desc: ["Tudo aqui precisa de conserto."]
+	quest.655BA6AB650FA198.title: "Madeira para os reparos"
+	quest.65CE2AD464711B60.quest_desc: ["Natureza e papoula."]
+	quest.65CE2AD464711B60.title: "Flor Mística"
+	quest.65D9FCFC15E61EB9.quest_desc: ["&7Farinha e água fazem massa. O Bento ensinou: sove bem e deixe descansar."]
+	quest.65D9FCFC15E61EB9.title: "Massa"
+	quest.66D2AC6BB23CD1AD.quest_desc: ["&7O celeiro está vazio desde que eu adoeci. Traga os bichos de volta: eles dão comida, adubo e coisas que a terra sozinha não dá."]
+	quest.66D2AC6BB23CD1AD.title: "O celeiro"
+	quest.67CCD8860331A737.quest_desc: ["Cobre e ferro."]
+	quest.67CCD8860331A737.title: "Zinco"
+	quest.6B430F5CF9BD1895.quest_desc: ["Olhe para qualquer bloco para ver o que é e o estado dele, inclusive a fertilidade do solo."]
+	quest.6B430F5CF9BD1895.title: "Jade"
+	quest.6B5F5A97781E516D.quest_desc: ["End e Zumbi."]
+	quest.6B5F5A97781E516D.title: "Enderman"
+	quest.6B79D9A620497918.quest_desc: ["Três lingotes de ferro e você nunca mais carrega água nas mãos."]
+	quest.6B79D9A620497918.title: "Um balde"
+	quest.6C57911B9C8B8190.quest_desc: ["Terra e Carvão."]
+	quest.6C57911B9C8B8190.title: "Pedra"
+	quest.6D23471197909A1B.quest_desc: ["Moa no rebolo e derreta, como o cobre. Nove pepitas fazem um lingote."]
+	quest.6D23471197909A1B.title: "Ferro"
+	quest.6DA6D9D3D07FE7C7.quest_desc: ["Blaze e Ar."]
+	quest.6DA6D9D3D07FE7C7.title: "Ghast"
+	quest.6F40B266FB7B3DC3.quest_desc: ["Vaca e Terra."]
+	quest.6F40B266FB7B3DC3.title: "Zumbi"
+	quest.6FED5D0BD51862A6.quest_desc: ["Vulcanize a borracha crua com pó de enxofre no misturador aquecido."]
+	quest.6FED5D0BD51862A6.title: "Borracha"
+	quest.71D2ADB28E98A528.quest_desc: ["Uma faca de pederneira e uma tábua de corte bastam para o começo."]
+	quest.71D2ADB28E98A528.title: "Tábua e faca"
+	quest.7279880C697DC722.quest_desc: ["Tartaruga e Elemento Terra."]
+	quest.7279880C697DC722.title: "Tatu"
+	quest.72F47B5F7753D041.quest_desc: ["Ferro derretido e coque na fundição."]
+	quest.72F47B5F7753D041.title: "Aço"
+	quest.73A8990276846C64.quest_desc: ["Peças do Create e de addons que não são obrigatórias, mas poupam muito trabalho."]
+	quest.73A8990276846C64.title: "Extras do Create"
+	quest.73CCA762411DBB9A.quest_desc: ["O arado prepara a terra na frente da colheitadeira."]
+	quest.73CCA762411DBB9A.title: "Arado"
+	quest.7499021D276C5D55.quest_desc: [
+		"Este pack se inspira no Create: Above and Beyond, com eras construídas sobre mecanismos e máquinas,"
+		"e no Stardew Valley, com uma fazenda herdada, uma vila para ajudar e uma caixa de venda."
+	]
+	quest.7499021D276C5D55.title: "Inspiração"
+	quest.74A70C2247CC659D.quest_desc: ["&7Trigo na tábua de corte, farinha saindo. É devagar, mas é o que temos até o moinho."]
+	quest.74A70C2247CC659D.title: "Farinha à mão"
+	quest.74BD616AC06613B6.quest_desc: ["Obsidiana e Ar."]
+	quest.74BD616AC06613B6.title: "End"
+	quest.75A01633262E6C49.quest_desc: ["Inferium e tulipa branca."]
+	quest.75A01633262E6C49.title: "Ovelha"
+	quest.771CF701D78A925F.quest_desc: ["Use /sethome e /home para salvar lugares e voltar até eles."]
+	quest.771CF701D78A925F.title: "Casas"
+	quest.7805C100AA7F3BA0.quest_desc: ["Baús enchem rápido numa fazenda. Aqui estão as formas de guardar e carregar tudo."]
+	quest.7805C100AA7F3BA0.title: "Armazenamento"
+	quest.783122E38095682E.quest_desc: [
+		"Montagem sequencial sobre lajes de madeira. Mecanismo feito à mão não vai dar conta."
+		""
+		"Vira tarefa de item quando este item existir."
+	]
+	quest.783122E38095682E.title: "Mecanismo Cinético"
+	quest.7844D2E901B22B44.quest_desc: [
+		"Oito Mecanismos de Precisão em volta de uma carcaça de latão, feitos sem você encostar em nada. A fazenda anda sozinha."
+		""
+		"Vira tarefa de item quando este item existir."
+	]
+	quest.7844D2E901B22B44.title: "Máquina de Latão"
+	quest.7891D9DCFE66F172.quest_desc: [
+		"Portais não funcionam aqui. Varas de blaze, pérolas do End e outros itens vêm da Essência de Mob, que os animais de fazenda soltam."
+		"O enxofre vem das Cavernas de Enxofre, bem fundo no subsolo."
+	]
+	quest.7891D9DCFE66F172.title: "Sem Nether, sem End"
+	quest.793E00C0A6CC4DC0.quest_desc: ["O FTB Chunks tem um mapa completo. Reivindique chunks para proteger a fazenda."]
+	quest.793E00C0A6CC4DC0.title: "Mapa e territórios"
+	quest.793EBF527751CC39.quest_desc: [
+		"&7Cada semente tem a sua estação."
+		"{@pagebreak}"
+		"&lPrimavera:&r Abobrinha, Aipo, Alcachofra, Alface, Alho, Alho-poró, Amora, Aspargo, Aveia, Bagas doces, Batata, Cenoura, Cevada, Chá, Cúrcuma, Espinafre, Gengibre, Manjericão, Melão-cantalupo, Mirtilo, Mostarda, Nabo, Oxicoco, Pimenta, Pimentão, Rabanete, Repolho, Sabugueiro, Soja, Tomate."
+		"&lVerão:&r Abacaxi, Abobrinha, Alcachofra, Algodão, Amora, Arroz, Aspargo, Aveia, Baunilha, Cacau, Café, Cana-de-açúcar, Cebola, Cebolinha, Cevada, Cúrcuma, Feijão-preto, Flor-tocha, Framboesa, Gengibre, Kiwi, Manjericão, Melancia, Melão, Melão-cantalupo, Mirtilo, Morango, Mostarda, Oxicoco, Pimenta-do-reino, Pimentão, Planta-jarro, Sabugueiro, Saguaro, Soja, Tomate, Tomatillo, Trigo, Vagem."
+		"&lOutono:&r Abóbora, Algodão, Amendoim, Azeitona, Batata-doce, Berinjela, Beterraba, Brócolis, Cenoura, Couve, Couve-flor, Groselha, Lúpulo, Milho, Pepino, Pimenta, Trigo, Uva."
+		"&lInverno:&r Bagas doces, Inhame, Moranga, Nabo, Ruibarbo, Rutabaga."
+	]
+	quest.793EBF527751CC39.title: "O calendário"
+	quest.7946CDED0A895F16.quest_desc: ["Arar, plantar e colher sem pôr a mão. Agora é só escoar a produção."]
+	quest.7946CDED0A895F16.title: "Campo automático"
+	quest.7A72646BB6006369.quest_desc: ["Ouro e Quartzo do Nether."]
+	quest.7A72646BB6006369.title: "Esmeralda"
+	quest.7A9161236A9F1808.quest_desc: ["Natureza e Terra."]
+	quest.7A9161236A9F1808.title: "Madeira"
+	quest.7A9FF28B5EF2A95C.quest_desc: ["Suporte vazio junta erva daninha, e ela sufoca a planta do lado. O ancinho limpa."]
+	quest.7A9FF28B5EF2A95C.title: "Ancinho"
+	quest.7B5E11535C33FBE5.quest_desc: ["Variações de lã, carpetes e tecidos."]
+	quest.7B5E11535C33FBE5.title: "Mesa de tear"
+	quest.7BDEC9D4D4D2ECAF.quest_desc: ["Variações de lanternas, correntes e peças de metal."]
+	quest.7BDEC9D4D4D2ECAF.title: "Mesa do funileiro"
+	quest.7C265D51ABD29ADF.quest_desc: ["Zumbi e Enxofre."]
+	quest.7C265D51ABD29ADF.title: "Creeper"
+	quest.7C48C9B4C4B3732B.quest_desc: ["Água e Natureza."]
+	quest.7C48C9B4C4B3732B.title: "Coral"
+	quest.7CABFED6BE13A7BD.quest_desc: ["Água e Zumbi."]
+	quest.7CABFED6BE13A7BD.title: "Slime"
+	quest.7D66BDA53E96EA73.quest_desc: ["Duas plantas de Inferium lado a lado e um suporte duplo no meio. Paciência."]
+	quest.7D66BDA53E96EA73.title: "Primeira mutação: carvão"
+	quest.7DC6BE5BAC31F370.quest_desc: ["O Factory Gauge do Create acompanha quanto você tem de um item e pede mais pela rede de pacotes quando o estoque baixa."]
+	quest.7DC6BE5BAC31F370.title: "Factory Gauge"
+	quest.7E0F19CD38235CF7.quest_desc: ["Guarde ferramentas e itens numa caixa no chão e puxe tudo para a barra de atalhos de longe. Pinte para ter várias."]
+	quest.7E0F19CD38235CF7.title: "Caixa de ferramentas"
+	quest.7EE851A15D6643AD.quest_desc: ["Zinco e ouro. O metal da fundição."]
+	quest.7EE851A15D6643AD.title: "Tungstênio"
+	quest.7F30C6F07CBB31B0.quest_desc: ["Natureza e dente-de-leão."]
+	quest.7F30C6F07CBB31B0.title: "Corante"
+	quest.7F7CFEED35E8D48D.quest_desc: [
+		"Os cavalos viram companheiros de verdade: crie laço com o seu, escolha entre quinze raças, use arreios e carroças."
+		"Chame o seu cavalo com a tecla do apito."
+	]
+	quest.7F7CFEED35E8D48D.title: "Icy's Better Horses"
+	quest.7FE36B0D93709094.quest_desc: ["Ouro e lápis-lazúli. O resto da árvore está no caderno agrícola."]
+	quest.7FE36B0D93709094.title: "Diamante"
+	reward_table.114A94CD14326FD1.title: "Sementes de Inverno"
+	reward_table.280FFB863EA6DF76.title: "Sementes de Outono"
+	reward_table.37AE859AA3412E81.title: "Era da Fundição"
+	reward_table.4E424091A8B5BB04.title: "Era do Andesito"
+	reward_table.64BB2817D10E3B31.title: "Era do Cobre"
+	reward_table.64FC62B390EAA5F0.title: "Sementes de Primavera"
+	reward_table.6645287E24F255E2.title: "Sementes de Verão"
+	reward_table.67CBFB5D7997BA15.title: "Era do Latão"
+	task.23DA06B87197359B.title: "The Pack"
+	task.784830A9413A0B71.title: "Feedback"
+	task.7C1CFB15D5E7818B.title: "Visão geral"
+}

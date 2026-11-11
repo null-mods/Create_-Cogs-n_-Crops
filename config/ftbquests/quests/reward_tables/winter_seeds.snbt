@@ -1,0 +1,64 @@
+{
+	icon: {
+		id: "minecraft:light_blue_bundle"
+	}
+	id: "114A94CD14326FD1"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 4
+			id: "7A1257FE918FE85A"
+			item: {
+				count: 1
+				id: "croptopia:turnip_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "061CABD1C3C4E425"
+			item: {
+				count: 1
+				id: "croptopia:rutabaga_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "5E0F8F8805B367D3"
+			item: {
+				count: 1
+				id: "croptopia:rhubarb_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "69C9CF220165A2E4"
+			item: {
+				count: 1
+				id: "croptopia:squash_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "5918CD7DAD30F916"
+			item: {
+				count: 1
+				id: "croptopia:yam_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "592A829A140EF4F9"
+			item: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
+			weight: 8.0f
+		}
+	]
+}

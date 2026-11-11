@@ -1,0 +1,520 @@
+{
+	chapter.0063AEDA4905DB8A.title: "Rusty Store"
+	chapter.1327F56F82B77B40.title: "3. Brass Age"
+	chapter.1E005F30C8509856.title: "Challenges"
+	chapter.2B2DC7DAEE302EE3.title: "Automation Timeline"
+	chapter.317BA35A84E61CEB.title: "Fields"
+	chapter.3795BA1F2F184224.title: "What's left"
+	chapter.4ADEA23F7184D454.title: "Barn"
+	chapter.525BA569BC2A0B13.title: "The Pack"
+	chapter.56E6F527AC1CE74D.title: "Town"
+	chapter.5C0234DC4B2D451C.title: "Kitchen"
+	chapter.65C30D8936E26040.title: "2. Copper Age"
+	chapter.6EBDCC694A560232.title: "1. Andesite age"
+	chapter.790678448D85F856.title: "Debt"
+	chapter.7E7EA259445D8B3A.title: "Tips n' Tricks"
+	chapter_group.3D97B793EC4DD29D.title: "Granpa's Plans"
+	chapter_group.51563BFE36C68C2A.title: "Story"
+	chapter_group.6DADF142678F1F9D.title: "Extras"
+	chapter_group.791C7C4D35DAA570.title: "Info"
+	quest.007BBB1C5FA0B199.quest_desc: ["The sprinkler only takes this: a fertilizer bag and water in the mixer."]
+	quest.007BBB1C5FA0B199.title: "Diluted fertilizer"
+	quest.00BD900794489BBD.quest_desc: ["A sequenced assembly line that never stops."]
+	quest.00BD900794489BBD.title: "Precision Mechanism"
+	quest.00DA22784744F5AF.quest_desc: ["&7Wheat, carrots and potatoes still come from the grass. Everything else you breed or buy."]
+	quest.00DA22784744F5AF.title: "Seeds from the grass"
+	quest.010B79DA2EAED5BF.quest_desc: [
+		"Every harvest takes fertility from the soil. Worn farmland turns into dirt, and spent soil into coarse dirt."
+		"Bring it back with manure, compost or fertilizer."
+	]
+	quest.010B79DA2EAED5BF.title: "Tired soil"
+	quest.022FEBA9A241A56A.quest_desc: ["Raw rubber and sulfur dust in a heated mixer. Without rubber there is no gasket that seals, and without seals the copper age does not begin."]
+	quest.022FEBA9A241A56A.title: "Rubber"
+	quest.02B6D0C9CE310AC1.quest_desc: ["Ground ore melts in the furnace into three nuggets."]
+	quest.02B6D0C9CE310AC1.title: "Nuggets"
+	quest.02DB0CF96F23196B.quest_desc: ["Marks a section and repeats the pattern across a whole area: crop rows, fences, floors."]
+	quest.02DB0CF96F23196B.title: "Pattern schematic"
+	quest.04AFF521B4DD37AA.quest_desc: [
+		"Every copper machine needs eight of these."
+		""
+		"Becomes an item task once this item exists."
+	]
+	quest.04AFF521B4DD37AA.title: "Sealed Mechanism"
+	quest.056E35E362B8BEB1.quest_desc: ["&7Every now and then a farm animal drops a green essence. Keep it: it unlocks the last secret of the fields."]
+	quest.056E35E362B8BEB1.title: "Inferium essence"
+	quest.0617F9982F051967.quest_desc: [
+		"Your grandfather Anselmo left you his farm, a journal full of unfinished machines and a huge debt with Baron Ferrugem."
+		"Pay the debt, mechanize the farm and help Contrapeso, the village next door, get back on its feet."
+	]
+	quest.0617F9982F051967.title: "Welcome to Cogs n' Crops"
+	quest.06383446B7697100.quest_desc: ["Coal and copper."]
+	quest.06383446B7697100.title: "Iron"
+	quest.07D729B862C8C898.quest_desc: ["Variations of leaves, flowers and plants."]
+	quest.07D729B862C8C898.title: "Botanist's workbench"
+	quest.07DD09C24379D778.quest_desc: ["Fertilizer from mechanical crafters, a deployer applies it to dirt, a drill collects the compost and a water fan makes the rich soil."]
+	quest.07DD09C24379D778.title: "Rich soil in bulk"
+	quest.085C2BD5047559F2.quest_desc: ["Fire and Earth."]
+	quest.085C2BD5047559F2.title: "Nether"
+	quest.0863A5C925E6B388.quest_desc: [
+		"Before you left, the Mayor told you: &ayour grandfather's tools are in the shed."
+		"They are stone and have seen better days, but they will do for a start."
+	]
+	quest.0863A5C925E6B388.title: "Tools in the shed"
+	quest.095E62F7363D3EDA.quest_desc: ["Coal and Sulfur."]
+	quest.095E62F7363D3EDA.title: "Fire"
+	quest.0A5A89A6B2170792.quest_desc: [
+		"Baron Ferrugem stops his horse at the gate and does not get down."
+		"&a\"The first installment is due at the end of spring.\""
+	]
+	quest.0A5A89A6B2170792.title: "The Baron's visit"
+	quest.0C351154E07B2F67.quest_desc: [
+		"The village is a coach ride away. Its shops are closed, choked by the Baron's prices."
+		"Help the residents and the shops reopen, one by one."
+	]
+	quest.0C351154E07B2F67.title: "Contrapeso"
+	quest.0CCDB0A942343E54.quest_desc: ["Nature and sweet berries."]
+	quest.0CCDB0A942343E54.title: "Honey"
+	quest.0DE2B2D9799FFDAD.quest_desc: ["Stone will not scratch iron. With a copper pickaxe you can finally mine it."]
+	quest.0DE2B2D9799FFDAD.title: "Copper pickaxe"
+	quest.0E2084BD723E8B52.quest_desc: ["On a contraption, the harvester sweeps the field and picks everything ripe, without uprooting the plants."]
+	quest.0E2084BD723E8B52.title: "Harvester"
+	quest.0F6495BFEAFE8BCB.quest_desc: ["Air and Ghast."]
+	quest.0F6495BFEAFE8BCB.title: "Breeze"
+	quest.10FB1DF10CC22425.quest_desc: ["Place a blueprint on a wall and set a recipe on it. Then just click to craft from what is in your inventory."]
+	quest.10FB1DF10CC22425.title: "Crafting blueprint"
+	quest.1104569EE6A61D20.quest_desc: ["Dirt, straw, bone meal and tree bark. Use it on a dirt block to turn it into compost."]
+	quest.1104569EE6A61D20.title: "Fertilizer"
+	quest.11175000C507CAF0.quest_desc: ["A Tree Tapper on a trunk collects the sap from trees. Fill a bucket. In winter almost nothing flows."]
+	quest.11175000C507CAF0.title: "Sap"
+	quest.11AB1DFB9E7D4C89.quest_desc: [
+		"The Baron charges one installment per season, eight in total, and each one doubles the last."
+		"Late payments come back next season with 25% interest. Installments cannot be paid in advance. See the Debt tab."
+	]
+	quest.11AB1DFB9E7D4C89.title: "The debt"
+	quest.11CF10DBCF062906.quest_desc: [
+		"Inferium and the ore plants only grow on wet, well-fed soil: farmland near water or tilled rich soil."
+		"They grow in any season."
+	]
+	quest.11CF10DBCF062906.title: "Soil for Inferium"
+	quest.11D5E11CAF1F62FB.quest_desc: ["The village is far, and the stagecoach is not always at hand. A good horse and a place to sleep make the trip shorter."]
+	quest.11D5E11CAF1F62FB.title: "Travel and rest"
+	quest.1262F141A4873946.quest_desc: ["Water and Air."]
+	quest.1262F141A4873946.title: "Ice"
+	quest.13A1EC114AD19E97.quest_desc: ["Drawers hold a lot of a single item and show what is inside. Great for harvests and for the end of a belt."]
+	quest.13A1EC114AD19E97.title: "Drawers"
+	quest.1433ECDD4C8A71E4.quest_desc: ["Fire and Stone."]
+	quest.1433ECDD4C8A71E4.title: "Basalt"
+	quest.15A371DD6A5DA61F.quest_desc: ["Dirt and Stone."]
+	quest.15A371DD6A5DA61F.title: "Earth"
+	quest.16385F364B0203E2.quest_desc: ["A fan blows through a block to process items: water washes, lava smelts. With an empty catalyst in front of the fan, processing no longer depends on a block in the world. Fill the catalyst to choose the type."]
+	quest.16385F364B0203E2.title: "Fan catalyst"
+	quest.1754D3ABF19F259E.quest_desc: ["Inferium and dandelion."]
+	quest.1754D3ABF19F259E.title: "Rabbit"
+	quest.178C89AA3470DDB2.quest_desc: ["Molten copper and zinc in the foundry: the only way to get brass."]
+	quest.178C89AA3470DDB2.title: "Brass"
+	quest.1791640A5E35D3BF.quest_desc: ["Connect your chests and drawers to a terminal and see everything in one place, instead of opening chest after chest."]
+	quest.1791640A5E35D3BF.title: "Storage terminal"
+	quest.18B2142FD6CD6ABE.quest_desc: ["Variations of glass and stained glass."]
+	quest.18B2142FD6CD6ABE.title: "Glassblower"
+	quest.1B1A7F685B0B47CB.quest_desc: ["The loom table tool: changes the variation of placed wool and carpets."]
+	quest.1B1A7F685B0B47CB.title: "Needles"
+	quest.1BDBAB7689BFAB08.quest_desc: ["Inferium crossed with coal. The essence turns into raw ore and goes on to the grindstone."]
+	quest.1BDBAB7689BFAB08.title: "Copper from the ground"
+	quest.1C89FBCE29272E5A.quest_desc: ["Eight essence at the table become four raw ores. From there it is grindstone and furnace, like any ore."]
+	quest.1C89FBCE29272E5A.title: "Essence into ore"
+	quest.1E98B4BF365EFF4B.quest_desc: ["Water in the catalyst, by bucket or spout. Washes crushed ore and other items without a water source next to the fan."]
+	quest.1E98B4BF365EFF4B.title: "Washing catalyst"
+	quest.1F5F56CA41F0ABDD.quest_desc: ["Bind it to your Numismatics account. In the Selling Bin it deposits sales straight into the bank."]
+	quest.1F5F56CA41F0ABDD.title: "Bank card"
+	quest.2017CB360356D0F5.quest_desc: ["Nail a rope and nail to two walls and hang the hammock between them. It lets you rest during the day and skip to the night."]
+	quest.2017CB360356D0F5.title: "Hammock"
+	quest.201E3EFAF50E72AC.quest_desc: ["Plants on rich soil grow faster, and mushrooms spread on it."]
+	quest.201E3EFAF50E72AC.title: "Rich soil"
+	quest.20D1320F9FE7D461.quest_desc: ["Fish and Water."]
+	quest.20D1320F9FE7D461.title: "Squid"
+	quest.20FC1912D687A3DE.quest_desc: ["Inferium and Lapis Lazuli."]
+	quest.20FC1912D687A3DE.title: "Experience"
+	quest.2523925F7D64313D.quest_desc: [
+		"Progress comes in four ages: Andesite, Copper and Brass."
+		"Each age has a Mechanism and a Machine. Machines are crafted from the age's Machine plus one item, or cut from it in a stonecutter."
+	]
+	quest.2523925F7D64313D.title: "Ages and machines"
+	quest.2595080854A31353.quest_desc: [
+		"&7Wheat and carrots side by side, with an empty crop stick between them. Sometimes a plant grows there that is neither of the two."
+		"&7 Or thats what I've heard."
+	]
+	quest.2595080854A31353.title: "Inferium seeds"
+	quest.259C0446C03E1652.quest_desc: ["Sap in the mixer becomes raw rubber. Without sap, vines or flowers pressed with water work too."]
+	quest.259C0446C03E1652.title: "Raw rubber"
+	quest.269F970A88F0D7FD.quest_desc: ["Fire and Water."]
+	quest.269F970A88F0D7FD.title: "Obsidian"
+	quest.26E7A44699206D0B.quest_desc: ["Inferium and corn."]
+	quest.26E7A44699206D0B.title: "Chicken"
+	quest.27FC05262B16AAEF.quest_desc: ["Redstone and Copper."]
+	quest.27FC05262B16AAEF.title: "Lapis Lazuli"
+	quest.28C3BF25294D2956.quest_desc: ["Hover over an item and press R to see its recipe, or U to see what it is used for."]
+	quest.28C3BF25294D2956.title: "Recipe viewer"
+	quest.28D1DEC23D253ECC.quest_desc: ["Analyse a seed with the journal in the analyzer and it gets written down, along with the mutations it knows."]
+	quest.28D1DEC23D253ECC.title: "Agricultural journal"
+	quest.28D7D002E980FCAB.quest_desc: ["Zombie and Nature."]
+	quest.28D7D002E980FCAB.title: "Spider"
+	quest.2981CE56B38FF09E.quest_desc: ["Fire and Nether."]
+	quest.2981CE56B38FF09E.title: "Blaze"
+	quest.2A8CDEA530220C99.quest_desc: ["Sophisticated Backpacks gives you portable storage. Craft one and stop running back to your chests."]
+	quest.2A8CDEA530220C99.title: "A backpack"
+	quest.2D2D9A75A84E928F.quest_desc: ["Earth and Water."]
+	quest.2D2D9A75A84E928F.title: "Nature"
+	quest.2DA8F071EDFFF1F3.quest_desc: [
+		"The Pack: what this modpack is about."
+		"Tips n' Tricks: useful items that are not required."
+		"Debt: pay the Baron's installments and see how long until the next one."
+		"Prologue: your first days on the farm, up to the mill."
+		"Andesite, Copper and Brass Age: the machines and automation of each age. Melting and casting start in Copper Age; alloys stay in Brass Age."
+		"Village: help the residents of Contrapeso and take the Mayor's contracts."
+		"Challenges: long or hard goals, for when you want more."
+	]
+	quest.2DA8F071EDFFF1F3.title: "Quest book overview"
+	quest.2E47D5B14010B92E.quest_desc: [
+		"Leaving it fallow does nothing: only fertilizer brings the soil back."
+		"Bone meal restores a little, manure more, compost a lot, and fertilizer restores it all."
+		"Coarse dirt only comes back with fertilizer."
+	]
+	quest.2E47D5B14010B92E.title: "Restoring the soil"
+	quest.2F294891C97F350E.quest_desc: ["Air and Skeleton."]
+	quest.2F294891C97F350E.title: "Phantom"
+	quest.2F88A6A36C957441.quest_desc: [
+		"Each season lasts 36 days. Most crops only grow well in their own season."
+		"Winter has no harvest: store food or build a greenhouse before it arrives."
+	]
+	quest.2F88A6A36C957441.title: "Seasons"
+	quest.2FB698EA36BC30C1.quest_desc: [
+		"Inferium Essence drops from farm animals. Cross plants on AgriCraft crop sticks to mutate Inferium into resource seeds."
+		"Each mutation only needs the right two plants side by side."
+	]
+	quest.2FB698EA36BC30C1.title: "Growing ores"
+	quest.3114E9ED2B7CD3C4.quest_desc: ["Stone and Iron."]
+	quest.3114E9ED2B7CD3C4.title: "Deepslate"
+	quest.31BD6DC23E8DDDFA.quest_desc: ["Iron and Coal."]
+	quest.31BD6DC23E8DDDFA.title: "Redstone"
+	quest.3272F2BB84CF2BFF.quest_desc: ["Variations of candles and more exotic blocks."]
+	quest.3272F2BB84CF2BFF.title: "Alchemy bench"
+	quest.32A2950016F53D1E.quest_desc: ["There are broken machines around the land. Take them apart to salvage material, or mine some andesite yourself."]
+	quest.32A2950016F53D1E.title: "Andesite"
+	quest.3353A049B98268C3.quest_desc: [
+		"Cogs n' Crops is a story-driven pack built around Create."
+		"Follow the quests: they tell the story of the farm and show your next step."
+	]
+	quest.3353A049B98268C3.title: "Welcome"
+	quest.3382F947730F28D4.quest_desc: ["The same idea as the mason table, for wood."]
+	quest.3382F947730F28D4.title: "Carpenter's table"
+	quest.33999D6A6F48A5A0.quest_desc: [
+		"Mortar and graphite, then two Spouts of lava and a press."
+		""
+		"Becomes an item task once this item exists."
+	]
+	quest.33999D6A6F48A5A0.title: "Refractory Mechanism"
+	quest.34BE759CE67878AD.quest_desc: ["Deepslate and Experience."]
+	quest.34BE759CE67878AD.title: "Sculk"
+	quest.34D55A0273D3B13B.quest_desc: ["It rains inside, the door won't close and there is no light."]
+	quest.34D55A0273D3B13B.title: "Fixing up the house"
+	quest.350149046DC53C74.quest_desc: ["Powder snow in the catalyst. Freezes items that need the cold."]
+	quest.350149046DC53C74.title: "Freezing catalyst"
+	quest.3570EBE994890152.quest_desc: ["A deployer holding seeds replants where the harvester went by."]
+	quest.3570EBE994890152.title: "Planting on its own"
+	quest.3577D823F2A58A1F.quest_desc: ["The Mechanical Generator from Create Cobblestone makes cobblestone from rotational force, without lava and water."]
+	quest.3577D823F2A58A1F.title: "Cobblestone generator"
+	quest.35F13AB972E151DA.quest_desc: ["Inferium and potato."]
+	quest.35F13AB972E151DA.title: "Dirt"
+	quest.35F4E5268D04D3DE.quest_desc: ["Water and seagrass."]
+	quest.35F4E5268D04D3DE.title: "Fish"
+	quest.3652B43D0F48A054.quest_desc: ["Inferium and carrot."]
+	quest.3652B43D0F48A054.title: "Pig"
+	quest.36935C2EEFF38C14.quest_desc: ["Stone and Lapis Lazuli."]
+	quest.36935C2EEFF38C14.title: "Amethyst"
+	quest.36FE27912C977DAF.quest_desc: ["Sulfur from the caves, ground in the millstone or the crushing wheels."]
+	quest.36FE27912C977DAF.title: "Sulfur dust"
+	quest.375633AE1162F5B4.quest_desc: ["&7Flour and water make a glue that holds almost anything."]
+	quest.375633AE1162F5B4.title: "Starch glue"
+	quest.3A97EC59E0F991EA.quest_desc: ["Cuts a piece of a plant without uprooting it, to take a seed without losing the plant."]
+	quest.3A97EC59E0F991EA.title: "Plant clipper"
+	quest.3B4B2EB6F739344A.quest_desc: ["The farm does not have to be only functional. These blocks and tools help make it look like yours."]
+	quest.3B4B2EB6F739344A.title: "Decoration"
+	quest.3B9D9017DECF6301.quest_desc: [
+		"Sell your produce in the Selling Bin for Numismatics coins. A bank card in its slot sends the money straight to your account."
+		"Village shops and the Mayor's contracts pay better."
+	]
+	quest.3B9D9017DECF6301.title: "Making money"
+	quest.3BA528CAA14D94E0.quest_desc: ["Growth, gain and strength: the analyzer shows what each seed carries."]
+	quest.3BA528CAA14D94E0.title: "Seed analyzer"
+	quest.3D1785459437A310.quest_desc: [
+		"Every harvest wears the soil out. After a few, farmland turns into dirt, and then into coarse dirt."
+		"On dirt, a crop that was already there still grows, but you cannot plant again. On coarse dirt nothing grows."
+	]
+	quest.3D1785459437A310.title: "Depleted soil"
+	quest.3D636E03E2DF9D90.quest_desc: ["Skeleton and Nether."]
+	quest.3D636E03E2DF9D90.title: "Wither Skeleton"
+	quest.3D6B1CD571DFF150.quest_desc: ["Inferium and seagrass."]
+	quest.3D6B1CD571DFF150.title: "Water"
+	quest.3E2BF61FBFC47B2F.quest_desc: ["Made from iron rods. Ore plants only grow on these."]
+	quest.3E2BF61FBFC47B2F.title: "Iron crop sticks"
+	quest.3F1E7B6F3481567B.quest_desc: [
+		"Ore in a furnace only gives a third of an ingot. Crush, wash and melt it to get the full yield."
+		"Alloys like brass and steel only come from the foundry."
+	]
+	quest.3F1E7B6F3481567B.title: "Metals"
+	quest.404057C6857A05C4.quest_desc: ["A Mixer turns andesite and nuggets into alloy, two per andesite. Stop gluing it by hand."]
+	quest.404057C6857A05C4.title: "Andesite Alloy"
+	quest.4133664950DB50EE.quest_desc: ["The chisel changes the variation of a placed block, without breaking it."]
+	quest.4133664950DB50EE.title: "Chisel"
+	quest.42ACB114BD5B9636.quest_desc: ["Place a double crop stick between two mature plants. In time a seedling that mixes both grows there, sometimes better than its parents."]
+	quest.42ACB114BD5B9636.title: "Crossbreeding"
+	quest.434185195CB0B141.quest_desc: ["The alchemy bench tool: changes the variation of its placed blocks."]
+	quest.434185195CB0B141.title: "Alchemy book"
+	quest.44CF18AA75E03B7F.quest_desc: ["The saw changes the variation of placed wooden blocks."]
+	quest.44CF18AA75E03B7F.title: "Saw"
+	quest.44CFCDA2144658F5.quest_desc: ["Lava in the catalyst. Smelts and cooks items in bulk, without loose lava near the farm."]
+	quest.44CFCDA2144658F5.title: "Blasting catalyst"
+	quest.450BB87366393D23.quest_desc: ["The pen is empty."]
+	quest.450BB87366393D23.title: "Talk to the Mayor about Betsy"
+	quest.4649F442DB270551.quest_desc: [
+		"Found a bug or have an idea? Tell the pack author."
+		"Note what you were doing and, if you can, send the game log."
+	]
+	quest.4649F442DB270551.title: "Feedback and bugs"
+	quest.465CB65E1059EBD5.quest_desc: ["Create's copycat panel and step take the look of any block you put in them. Copycats+ adds dozens of shapes: stairs, slabs, beams, doors and more."]
+	quest.465CB65E1059EBD5.title: "Copycat"
+	quest.46C932294A6BDC9E.quest_desc: ["Write down item lists and settings. You can copy one machine's configuration and paste it onto another."]
+	quest.46C932294A6BDC9E.title: "Clipboard"
+	quest.474B4717DBB69825.quest_desc: ["Sleep anywhere without changing your respawn point. Good for long trips to the village."]
+	quest.474B4717DBB69825.title: "Sleeping bag"
+	quest.498F99FA525BB613.quest_desc: ["Mechanical Harvester and Plough on a field: wheat without lifting a finger."]
+	quest.498F99FA525BB613.title: "Any Crop"
+	quest.499ED2C43F305928.quest_desc: ["Fish and sea pickle."]
+	quest.499ED2C43F305928.title: "Turtle"
+	quest.49F0495531E124A0.quest_desc: ["The part that spreads the water."]
+	quest.49F0495531E124A0.title: "Sprinkler head"
+	quest.4A30B9634C94BDB2.quest_desc: ["Iron and zinc."]
+	quest.4A30B9634C94BDB2.title: "Gold"
+	quest.4A580C985C377653.quest_desc: ["Coal with coal."]
+	quest.4A580C985C377653.title: "Sulfur"
+	quest.4ADE3ABA5646D3CC.quest_desc: ["&7The damp ate my calendar."]
+	quest.4ADE3ABA5646D3CC.title: "Sugar cane"
+	quest.4BD3BDE1142DC3A8.quest_desc: ["Inferium and oxeye daisy."]
+	quest.4BD3BDE1142DC3A8.title: "Air"
+	quest.4C09C82CF825E220.quest_desc: ["Iron and Sulfur."]
+	quest.4C09C82CF825E220.title: "Nether Quartz"
+	quest.4E17B6D14A4FA66A.quest_desc: ["Dough in the oven, bread on the table. Simple, but it fills you up and sells well in the village."]
+	quest.4E17B6D14A4FA66A.title: "Homemade bread"
+	quest.51B589D41DB5D5BD.quest_desc: ["Whole ore will not melt. Hold the ore and right-click a grindstone to grind it."]
+	quest.51B589D41DB5D5BD.title: "Grind before smelting"
+	quest.520ADD013BE409ED.quest_desc: [
+		"Plant on crop sticks instead of straight into the soil. That is where seeds crossbreed."
+		"Only the mechanical saw cuts wood thin enough for them."
+	]
+	quest.520ADD013BE409ED.title: "Crop sticks"
+	quest.524DCB4B751E5402.quest_desc: ["Crush, wash and melt. A furnace alone only gives a third of an ingot."]
+	quest.524DCB4B751E5402.title: "Iron"
+	quest.5256060E39A0EB60.quest_desc: ["You should find some copper, it is the first metal you can work without a real forge."]
+	quest.5256060E39A0EB60.title: "Copper"
+	quest.52D3E8718115DD9A.quest_desc: [
+		"Each step of this line is something your farm should produce on its own by that point."
+		"Get the amount shown and move on."
+	]
+	quest.52D3E8718115DD9A.title: "The road to automation"
+	quest.54084E41181C37E7.quest_desc: ["With the copper age, water reaches the field through pipes. A pump draws it from the river to wherever you need."]
+	quest.54084E41181C37E7.title: "Piped water"
+	quest.542802BC37F04DA0.quest_desc: ["Hooked to a pipe, the sprinkler waters and fertilizes a whole area at once."]
+	quest.542802BC37F04DA0.title: "Sprinkler"
+	quest.550F68270707965C.quest_desc: ["A wooden cross near the house, I should show some respect."]
+	quest.550F68270707965C.title: "Anselmo's grave"
+	quest.558F3E500EFB9D6B.quest_desc: ["Tools to set up recipes before you produce."]
+	quest.558F3E500EFB9D6B.title: "Planning"
+	quest.568A4E31C201148E.quest_desc: ["&7If you are reading this, I am no longer there to explain. Keep this journal: everything is here, from seeds to machines."]
+	quest.568A4E31C201148E.title: "The letter"
+	quest.57DE5EB529948EBA.quest_desc: ["Load a finished schematic and it builds everything on its own, taking blocks from a chest next to it and using gunpowder. In this pack it comes from the Brass Machine with a dispenser."]
+	quest.57DE5EB529948EBA.title: "Schematicannon"
+	quest.58526A8A4746A182.quest_desc: ["Fire and Redstone."]
+	quest.58526A8A4746A182.title: "Glowstone"
+	quest.590F70D6F4DFE8BC.quest_desc: ["Every backpack upgrade starts from an Upgrade Base. Craft one and check the recipe viewer to see what it can become."]
+	quest.590F70D6F4DFE8BC.title: "Upgrade Base"
+	quest.5917538C06A2D476.quest_desc: ["Zombie and Stone."]
+	quest.5917538C06A2D476.title: "Skeleton"
+	quest.59CD7B331C3F32C0.quest_desc: ["&7Glued andesite will hold for a while."]
+	quest.59CD7B331C3F32C0.title: "Makeshift alloy"
+	quest.5A0E3B26850860EA.quest_desc: ["The stagecoach drops you in the square of Contrapeso. The Mayor offers his condolences, a little awkward."]
+	quest.5A0E3B26850860EA.title: "Arriving in Contrapeso"
+	quest.5A41C25C295DB396.quest_desc: ["Coral and Lapis Lazuli."]
+	quest.5A41C25C295DB396.title: "Prismarine"
+	quest.5A51DBBBC6704964.quest_desc: ["Two per log. A saw would get more out of it."]
+	quest.5A51DBBBC6704964.title: "Planks"
+	quest.5A890FF4987EEBF2.quest_desc: [
+		"&7I spent my life trading seeds with the neighbours and keeping the best ones. The fields are the heart of the farm."
+		"&7Here is everything I learned about making the land yield more."
+	]
+	quest.5A890FF4987EEBF2.title: "Grandpa's fields"
+	quest.5B40AB5CAE313395.quest_desc: ["Put stone into the mason table and choose from dozens of variations of the same block."]
+	quest.5B40AB5CAE313395.title: "Mason's table"
+	quest.5CCBA855405EB7AC.quest_desc: ["The botanist's workbench tool: changes the variation of placed plants and leaves."]
+	quest.5CCBA855405EB7AC.title: "Watering can"
+	quest.5D8D170B1BE85393.quest_desc: ["Given time, compost becomes rich soil. Near water and mushrooms it goes faster, and in front of a fan blowing water it turns right away."]
+	quest.5D8D170B1BE85393.title: "Compost"
+	quest.5E78EEFAEDDDFC5C.quest_desc: ["The stagecoach leaves the square and stops at the gate of your grandfather's farm. Whenever you want to go back to Contrapeso, just climb aboard again."]
+	quest.5E78EEFAEDDDFC5C.title: "The stagecoach"
+	quest.5FF344B05CB4190E.quest_desc: [
+		"Hexagon: story."
+		"Circle: regular quest."
+		"Gear: opens another questline."
+		"Diamond: challenge."
+		""
+		"&aGreen&r: someone speaking."
+		"&7Gray&r: written in your grandfather's journal."
+		"Default color: everything else."
+	]
+	quest.5FF344B05CB4190E.title: "Shapes and colors"
+	quest.60B6400E59BE7635.quest_desc: ["Inferium and wheat."]
+	quest.60B6400E59BE7635.title: "Cow"
+	quest.617CF4432BE08428.quest_desc: ["The tinkering table tool: changes the variation of placed lanterns and metal pieces."]
+	quest.617CF4432BE08428.title: "Multimeter"
+	quest.6400540E76A302D9.quest_desc: ["The field, maybe, still has some wheat."]
+	quest.6400540E76A302D9.title: "Wheat"
+	quest.6425E5992D98CF96.quest_desc: ["Lifts a whole plant off its crop sticks and moves it somewhere else."]
+	quest.6425E5992D98CF96.title: "Gardening trowel"
+	quest.655BA6AB650FA198.quest_desc: ["Everything here needs fixing."]
+	quest.655BA6AB650FA198.title: "Wood for repairs"
+	quest.65CE2AD464711B60.quest_desc: ["Nature and poppy."]
+	quest.65CE2AD464711B60.title: "Mystical Flower"
+	quest.65D9FCFC15E61EB9.quest_desc: ["&7Flour and water make dough. Bento taught me: knead it well and let it rest."]
+	quest.65D9FCFC15E61EB9.title: "Dough"
+	quest.66D2AC6BB23CD1AD.quest_desc: ["&7The barn has been empty since I fell ill. Bring the animals back: they give food, fertilizer and things the land alone cannot."]
+	quest.66D2AC6BB23CD1AD.title: "The barn"
+	quest.67CCD8860331A737.quest_desc: ["Copper and iron."]
+	quest.67CCD8860331A737.title: "Zinc"
+	quest.6B430F5CF9BD1895.quest_desc: ["Look at any block to see what it is and its state."]
+	quest.6B430F5CF9BD1895.title: "Jade"
+	quest.6B5F5A97781E516D.quest_desc: ["End and Zombie."]
+	quest.6B5F5A97781E516D.title: "Enderman"
+	quest.6B79D9A620497918.quest_desc: ["Three iron ingots and you will be able to water your crops."]
+	quest.6B79D9A620497918.title: "A bucket"
+	quest.6C57911B9C8B8190.quest_desc: ["Dirt and Coal."]
+	quest.6C57911B9C8B8190.title: "Stone"
+	quest.6D23471197909A1B.quest_desc: ["Grind it on the grindstone and melt, it will be usefull down the road."]
+	quest.6D23471197909A1B.title: "Iron"
+	quest.6DA6D9D3D07FE7C7.quest_desc: ["Blaze and Air."]
+	quest.6DA6D9D3D07FE7C7.title: "Ghast"
+	quest.6F40B266FB7B3DC3.quest_desc: ["Cow and Dirt."]
+	quest.6F40B266FB7B3DC3.title: "Zombie"
+	quest.6FED5D0BD51862A6.quest_desc: ["Vulcanize raw rubber with sulfur dust in a heated Mixer."]
+	quest.6FED5D0BD51862A6.title: "Rubber"
+	quest.71D2ADB28E98A528.quest_desc: [
+		"A flint knife and a cutting board are enough to get started."
+		"{@pagebreak}"
+		"(new page placeholder text)"
+	]
+	quest.71D2ADB28E98A528.title: "Board and Knife"
+	quest.7279880C697DC722.quest_desc: ["Turtle and Earth."]
+	quest.7279880C697DC722.title: "Armadillo"
+	quest.72F47B5F7753D041.quest_desc: ["Molten iron and coke in the foundry."]
+	quest.72F47B5F7753D041.title: "Steel"
+	quest.73A8990276846C64.quest_desc: ["Create and addon parts that are not required, but save a lot of work."]
+	quest.73A8990276846C64.title: "Create extras"
+	quest.73CCA762411DBB9A.quest_desc: ["The plough tills the soil in front of the harvester."]
+	quest.73CCA762411DBB9A.title: "Plough"
+	quest.7499021D276C5D55.quest_desc: [
+		"This pack borrows from Create: Above and Beyond, with its ages built on mechanisms and machines,"
+		"and from Stardew Valley, with an inherited farm, a village to help and a selling bin."
+	]
+	quest.7499021D276C5D55.title: "Inspiration"
+	quest.74A70C2247CC659D.quest_desc: ["&7Wheat on the cutting board, flour out. It is slow, but it is what we have until the mill."]
+	quest.74A70C2247CC659D.title: "Flour By Hand"
+	quest.74BD616AC06613B6.quest_desc: ["Obsidian and Air."]
+	quest.74BD616AC06613B6.title: "End"
+	quest.75A01633262E6C49.quest_desc: ["Inferium and white tulip."]
+	quest.75A01633262E6C49.title: "Sheep"
+	quest.771CF701D78A925F.quest_desc: ["Use /sethome and /home to save places and come back to them."]
+	quest.771CF701D78A925F.title: "Homes"
+	quest.7805C100AA7F3BA0.quest_desc: ["Chests fill up fast on a farm. Here are the ways to store and carry everything."]
+	quest.7805C100AA7F3BA0.title: "Storage"
+	quest.783122E38095682E.quest_desc: [
+		"Sequenced assembly on wooden slabs. Hand-made mechanisms will not keep up."
+		""
+		"Becomes an item task once this item exists."
+	]
+	quest.783122E38095682E.title: "Kinetic Mechanism"
+	quest.7844D2E901B22B44.quest_desc: [
+		"Eight Precision Mechanisms around a brass casing, made without you touching anything. The farm runs itself."
+		""
+		"Becomes an item task once this item exists."
+	]
+	quest.7844D2E901B22B44.title: "Brass Machine"
+	quest.7891D9DCFE66F172.quest_desc: [
+		"Portals do not work here. Blaze rods, ender pearls and other drops come from Mob Essence, dropped by farm animals."
+		"Sulfur comes from the Sulfur Caves deep underground."
+	]
+	quest.7891D9DCFE66F172.title: "No Nether, no End"
+	quest.793E00C0A6CC4DC0.quest_desc: ["FTB Chunks has a full map. Claim chunks to protect your farm."]
+	quest.793E00C0A6CC4DC0.title: "Map and claims"
+	quest.793EBF527751CC39.quest_desc: [
+		"&7Every seed has its season, use the calender to see the season."
+		"{@pagebreak}"
+		"&lSpring:&r Artichoke, Asparagus, Barley, Basil, Bell pepper, Blackberry, Blueberry, Cabbage, Cantaloupe, Carrot, Celery, Chile pepper, Cranberry, Elderberry, Garlic, Ginger, Leek, Lettuce, Mustard, Oats, Potato, Radish, Soybean, Spinach, Sweet berries, Tea, Tomato, Turmeric, Turnip, Zucchini."
+		"&lSummer:&r Artichoke, Asparagus, Barley, Basil, Bell pepper, Black bean, Black pepper, Blackberry, Blueberry, Cantaloupe, Cocoa, Coffee, Cotton, Cranberry, Elderberry, Ginger, Green bean, Green onion, Honeydew, Kiwi, Melon, Mustard, Oats, Onion, Pineapple, Pitcher plant, Raspberry, Rice, Saguaro, Soybean, Strawberry, Sugar cane, Tomatillo, Tomato, Torchflower, Turmeric, Vanilla, Wheat, Zucchini."
+		"&lAutumn:&r Beetroot, Broccoli, Carrot, Cauliflower, Chile pepper, Corn, Cotton, Cucumber, Currant, Eggplant, Grape, Hops, Kale, Olive, Peanut, Pumpkin, Sweet potato, Wheat."
+		"&lWinter:&r Rhubarb, Rutabaga, Squash, Sweet berries, Turnip, Yam."
+	]
+	quest.793EBF527751CC39.title: "The calendar"
+	quest.7946CDED0A895F16.quest_desc: ["Till, plant and harvest without lifting a finger. Now you only need to move the produce."]
+	quest.7946CDED0A895F16.title: "Automatic field"
+	quest.7A72646BB6006369.quest_desc: ["Gold and Nether Quartz."]
+	quest.7A72646BB6006369.title: "Emerald"
+	quest.7A9161236A9F1808.quest_desc: ["Nature and Dirt."]
+	quest.7A9161236A9F1808.title: "Wood"
+	quest.7A9FF28B5EF2A95C.quest_desc: ["Empty crop sticks gather weeds, and they choke the plant next to them. The rake clears them."]
+	quest.7A9FF28B5EF2A95C.title: "Hand rake"
+	quest.7B5E11535C33FBE5.quest_desc: ["Variations of wool, carpets and fabrics."]
+	quest.7B5E11535C33FBE5.title: "Loom table"
+	quest.7BDEC9D4D4D2ECAF.quest_desc: ["Variations of lanterns, chains and metal pieces."]
+	quest.7BDEC9D4D4D2ECAF.title: "Tinkering table"
+	quest.7C265D51ABD29ADF.quest_desc: ["Zombie and Sulfur."]
+	quest.7C265D51ABD29ADF.title: "Creeper"
+	quest.7C48C9B4C4B3732B.quest_desc: ["Water and Nature."]
+	quest.7C48C9B4C4B3732B.title: "Coral"
+	quest.7CABFED6BE13A7BD.quest_desc: ["Water and Zombie."]
+	quest.7CABFED6BE13A7BD.title: "Slime"
+	quest.7D66BDA53E96EA73.quest_desc: ["Two Inferium plants side by side and a double crop stick in the middle. Patience."]
+	quest.7D66BDA53E96EA73.title: "First mutation: coal"
+	quest.7DC6BE5BAC31F370.quest_desc: ["Create's Factory Gauge watches how much of an item you have and orders more through the package network when the stock runs low."]
+	quest.7DC6BE5BAC31F370.title: "Factory Gauge"
+	quest.7E0F19CD38235CF7.quest_desc: ["Keep tools and items in a box on the ground and pull them into your hotbar from a distance. Dye it to have several."]
+	quest.7E0F19CD38235CF7.title: "Toolbox"
+	quest.7EE851A15D6643AD.quest_desc: ["Zinc and gold. The foundry metal."]
+	quest.7EE851A15D6643AD.title: "Tungsten"
+	quest.7F30C6F07CBB31B0.quest_desc: ["Nature and dandelion."]
+	quest.7F30C6F07CBB31B0.title: "Dye"
+	quest.7F7CFEED35E8D48D.quest_desc: [
+		"Horses become long-term companions: bond with yours, pick among fifteen breeds, use proper tack and carts."
+		"Call your horse with the whistle key."
+	]
+	quest.7F7CFEED35E8D48D.title: "Icy's Better Horses"
+	quest.7FE36B0D93709094.quest_desc: ["Gold and lapis lazuli. The rest of the tree is in the agricultural journal."]
+	quest.7FE36B0D93709094.title: "Diamond"
+	reward_table.114A94CD14326FD1.title: "Winter Seeds"
+	reward_table.280FFB863EA6DF76.title: "Autumn Seeds"
+	reward_table.37AE859AA3412E81.title: "Foundry Age"
+	reward_table.4E424091A8B5BB04.title: "Andesite Age"
+	reward_table.64BB2817D10E3B31.title: "Copper Age"
+	reward_table.64FC62B390EAA5F0.title: "Spring Seeds"
+	reward_table.6645287E24F255E2.title: "Summer Seeds"
+	reward_table.67CBFB5D7997BA15.title: "Brass Age"
+	task.03E5C7DAF041B1B4.title: "Exploration"
+	task.03F6310478E451CC.title: "Any #minecraft:logs"
+	task.1FFCE7B67CC2CCB1.title: "Automation Helpers"
+	task.23DA06B87197359B.title: "The Pack"
+	task.30FDE9E513978FA0.title: "Any #minecraft:planks"
+	task.31D8B148DDFFF6C8.title: "Crafting"
+	task.3A3F6E6E9F566676.title: "Building"
+	task.3DD9C66E2A4D5B8E.title: "Storage"
+	task.5DC66A166A8A1A9F.title: "Talk to The Mayor About Betsy"
+	task.6CA7452E64E179E6.title: "Get to The Farm"
+	task.784830A9413A0B71.title: "Feedback"
+	task.7C1CFB15D5E7818B.title: "Overview"
+}

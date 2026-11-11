@@ -1,0 +1,109 @@
+{
+	icon: {
+		id: "minecraft:orange_bundle"
+	}
+	id: "280FFB863EA6DF76"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "77A829F7A5A75463"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "7564B3C216A250AC"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_seeds"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "3740C6C5715C435E"
+			item: {
+				count: 1
+				id: "croptopia:sweetpotato_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "1F7E261F93A5630B"
+			item: {
+				count: 1
+				id: "croptopia:broccoli_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "34DC00B4770C4BD6"
+			item: {
+				count: 1
+				id: "croptopia:cauliflower_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "2468D09649EAB0C9"
+			item: {
+				count: 1
+				id: "croptopia:kale_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "0777244532B790B6"
+			item: {
+				count: 1
+				id: "croptopia:eggplant_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "7BBA9A5345808D41"
+			item: {
+				count: 1
+				id: "croptopia:corn_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "614FCFCE4C005647"
+			item: {
+				count: 1
+				id: "croptopia:peanut_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "6C98EA4CC394B5E6"
+			item: {
+				count: 1
+				id: "croptopia:hops_seed"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "12F8B788E95F94B2"
+			item: {
+				count: 1
+				id: "croptopia:grape_seed"
+			}
+			weight: 6.0f
+		}
+	]
+}

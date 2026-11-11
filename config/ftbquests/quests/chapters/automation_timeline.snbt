@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "automation_timeline"
+	group: "3D97B793EC4DD29D"
+	id: "2B2DC7DAEE302EE3"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "52D3E8718115DD9A"
+			size: 2.0d
+			tasks: [{
+				id: "32A0CC3C368A6AE5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52D3E8718115DD9A"]
+			id: "498F99FA525BB613"
+			tasks: [{
+				count: 256L
+				id: "5B3B44DB7C60865C"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["498F99FA525BB613"]
+			id: "404057C6857A05C4"
+			tasks: [{
+				count: 128L
+				id: "46269EFA889F834C"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["404057C6857A05C4"]
+			icon: {
+				id: "kubejs:kinetic_mechanism"
+			}
+			id: "783122E38095682E"
+			tasks: [{
+				id: "4BB8D3DE2A7C7180"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783122E38095682E"]
+			id: "6FED5D0BD51862A6"
+			tasks: [{
+				count: 128L
+				id: "0F50EBDBD146E18A"
+				item: { count: 1, id: "kubejs:rubber" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FED5D0BD51862A6"]
+			icon: {
+				id: "kubejs:sealed_mechanism"
+			}
+			id: "04AFF521B4DD37AA"
+			tasks: [{
+				id: "17FBA21FEB3E8118"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04AFF521B4DD37AA"]
+			icon: {
+				id: "kubejs:refractory_mechanism"
+			}
+			id: "33999D6A6F48A5A0"
+			tasks: [{
+				id: "252CEB68511153B1"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33999D6A6F48A5A0"]
+			id: "524DCB4B751E5402"
+			tasks: [{
+				count: 256L
+				id: "362D67A6A048B640"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["524DCB4B751E5402"]
+			id: "72F47B5F7753D041"
+			tasks: [{
+				count: 64L
+				id: "31C6E55763A6D0D2"
+				item: { count: 1, id: "createmetallurgy:steel_ingot" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F47B5F7753D041"]
+			id: "178C89AA3470DDB2"
+			tasks: [{
+				count: 128L
+				id: "0F83E84BC2A73162"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["178C89AA3470DDB2"]
+			id: "00BD900794489BBD"
+			tasks: [{
+				count: 32L
+				id: "517673A0E455FEEA"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00BD900794489BBD"]
+			icon: {
+				id: "kubejs:brass_machine"
+			}
+			id: "7844D2E901B22B44"
+			size: 2.0d
+			tasks: [{
+				id: "26CE09791D488A4D"
+				type: "checkmark"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783122E38095682E"]
+			id: "2952E8203462185F"
+			tasks: [{
+				id: "690A1F677EFBDB72"
+				item: { count: 1, id: "kubejs:andesite_machine" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04AFF521B4DD37AA"]
+			id: "509F1CF880BC0686"
+			tasks: [{
+				id: "1986686B0920F71D"
+				item: { count: 1, id: "kubejs:copper_machine" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33999D6A6F48A5A0"]
+			id: "5372158453A03EE5"
+			tasks: [{
+				id: "096A57274DD0A91C"
+				item: { count: 1, id: "kubejs:foundry_machine" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,457 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "prologue"
+	group: "51563BFE36C68C2A"
+	id: "3795BA1F2F184224"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:paper"
+			}
+			id: "568A4E31C201148E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1B75D708A7F898F3"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74A70C2247CC659D"]
+			id: "375633AE1162F5B4"
+			tasks: [{
+				count: 4L
+				id: "1E89534315544043"
+				item: { count: 1, id: "kubejs:plant_glue" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32A2950016F53D1E"]
+			icon_scale: 1.3d
+			id: "59CD7B331C3F32C0"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "366A81735B08D09A"
+				item: { count: 1, id: "kubejs:makeshift_andesite_alloy" }
+				type: "item"
+			}]
+			x: 5.910714285714278d
+			y: -2.9642857142857224d
+		}
+		{
+			dependencies: ["5A0E3B26850860EA"]
+			id: "5E78EEFAEDDDFC5C"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "stagecoach:spruce_stagecoach"
+				}
+				id: "6CA7452E64E179E6"
+				ignore_dimension: false
+				position: [I;
+					0
+					0
+					0
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E78EEFAEDDDFC5C"]
+			id: "0863A5C925E6B388"
+			tasks: [
+				{
+					id: "2F8344D508E33B7B"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "648846A304534AF4"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+				{
+					id: "309CA0955BD2B7B1"
+					item: { count: 1, id: "minecraft:stone_shovel" }
+					type: "item"
+				}
+				{
+					id: "24BDF2DE7F56517F"
+					item: { count: 1, id: "minecraft:stone_hoe" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["375633AE1162F5B4"]
+			id: "32A2950016F53D1E"
+			tasks: [{
+				id: "1D0F2826A5272DE0"
+				item: { count: 1, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: 3.839285714285701d
+			y: -2.9642857142857224d
+		}
+		{
+			dependencies: ["0863A5C925E6B388"]
+			id: "6400540E76A302D9"
+			shape: "gear"
+			tasks: [
+				{
+					id: "7F32AC932E8FBB4D"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					id: "4560ED9CE074B6B7"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0863A5C925E6B388"]
+			id: "5256060E39A0EB60"
+			tasks: [{
+				count: 12L
+				id: "50E86819AEC16FEE"
+				item: { count: 1, id: "minecraft:raw_copper" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5256060E39A0EB60"]
+			id: "51B589D41DB5D5BD"
+			tasks: [
+				{
+					id: "6E12598156DC499C"
+					item: { count: 1, id: "minecraft:grindstone" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "534390436A4231FC"
+					item: { count: 1, id: "create:crushed_raw_copper" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51B589D41DB5D5BD"]
+			id: "02B6D0C9CE310AC1"
+			tasks: [
+				{
+					id: "06A6A11E624C5453"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5ECDD931D69C4AF9"
+					item: { count: 1, id: "minecraft:copper_nugget" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71D2ADB28E98A528"]
+			id: "74A70C2247CC659D"
+			tasks: [{
+				id: "7A2517F214B269C9"
+				item: { count: 1, id: "create:wheat_flour" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6400540E76A302D9"]
+			id: "71D2ADB28E98A528"
+			shape: "gear"
+			tasks: [
+				{
+					id: "7657FFA818D9D423"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+					type: "item"
+				}
+				{
+					id: "33D4C6928D9507FB"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02B6D0C9CE310AC1"]
+			id: "0DE2B2D9799FFDAD"
+			tasks: [{
+				id: "0DB29C4A68CE4FC2"
+				item: { count: 1, id: "minecraft:copper_pickaxe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0DE2B2D9799FFDAD"]
+			id: "6D23471197909A1B"
+			tasks: [{
+				id: "730D0C5BF9EF736E"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D23471197909A1B"]
+			id: "6B79D9A620497918"
+			tasks: [{
+				id: "77C416D94DCC123E"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B79D9A620497918"]
+			id: "65D9FCFC15E61EB9"
+			tasks: [{
+				id: "6C066613583C1117"
+				item: { count: 1, id: "create:dough" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["65D9FCFC15E61EB9"]
+			id: "4E17B6D14A4FA66A"
+			tasks: [{
+				id: "46F781592E14B6DC"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["568A4E31C201148E"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "5A0E3B26850860EA"
+			shape: "hexagon"
+			tasks: [{
+				id: "4E9E646C11F4DFB4"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6400540E76A302D9"]
+			id: "4ADE3ABA5646D3CC"
+			rewards: [
+				{
+					count: 3
+					id: "094A5794C7566992"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "37C8DC44E278885F"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "544DCE74839FC16C"
+				item: { count: 1, id: "minecraft:sugar_cane" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4ADE3ABA5646D3CC"]
+			id: "793EBF527751CC39"
+			tasks: [{
+				id: "041DE4E65A07EBFA"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0863A5C925E6B388"]
+			id: "450BB87366393D23"
+			shape: "gear"
+			tasks: [{
+				id: "5DC66A166A8A1A9F"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0863A5C925E6B388"]
+			id: "655BA6AB650FA198"
+			tasks: [
+				{
+					count: 8L
+					id: "03F6310478E451CC"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5C8943E02FCD6F7F"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0863A5C925E6B388"]
+			id: "550F68270707965C"
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "100FD61DD73AE364"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:small_flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E17B6D14A4FA66A"]
+			id: "0A5A89A6B2170792"
+			shape: "hexagon"
+			tasks: [{
+				id: "61DAE70EF8238C32"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["655BA6AB650FA198"]
+			id: "5A51DBBBC6704964"
+			tasks: [{
+				id: "30FDE9E513978FA0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A51DBBBC6704964"]
+			icon: {
+				id: "minecraft:oak_door"
+			}
+			id: "34D55A0273D3B13B"
+			tasks: [
+				{
+					id: "207AFDB4CB776FD8"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wooden_doors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "43D28CF272CC66CA"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:glass_panes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "00222146DC62E263"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:wooden_stairs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "2C7DD96BA9277885"
+					item: { count: 1, id: "minecraft:lantern" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59CD7B331C3F32C0"]
+			id: "78376A0EE4C3F044"
+			tasks: [{
+				id: "1C7A1055D1D45F10"
+				item: { count: 1, id: "create:goggles" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59CD7B331C3F32C0"]
+			id: "0934B24E5C795683"
+			tasks: [{
+				id: "4C041461C7E61E8A"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02B6D0C9CE310AC1"]
+			id: "113A28ACE7AFD173"
+			tasks: [{
+				id: "0F83E0920496542C"
+				item: { count: 1, id: "hearthandharvest:watering_can" }
+				type: "item"
+			}]
+			x: -0.0535714285714306d
+			y: 1.3214285714285765d
+		}
+	]
+}

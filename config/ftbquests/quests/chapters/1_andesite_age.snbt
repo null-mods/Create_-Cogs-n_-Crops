@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "1_andesite_age"
+	group: "3D97B793EC4DD29D"
+	id: "6EBDCC694A560232"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "337DC29777ED3965"
+		tasks: [{
+			id: "4B102FDFA9CBB612"
+			item: { count: 1, id: "kubejs:makeshift_andesite_alloy" }
+			type: "item"
+		}]
+		x: -6.0d
+		y: 0.0d
+	}]
+}

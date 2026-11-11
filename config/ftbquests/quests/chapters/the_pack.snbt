@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "the_pack"
+	group: "791C7C4D35DAA570"
+	id: "525BA569BC2A0B13"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3353A049B98268C3"]
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "0617F9982F051967"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "363D59B25EDD8D84"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0617F9982F051967"]
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "2523925F7D64313D"
+			tasks: [{
+				id: "1BD85F816665A016"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0617F9982F051967"]
+			icon: {
+				id: "numismatics:cog"
+			}
+			id: "11AB1DFB9E7D4C89"
+			tasks: [{
+				id: "4F0D7EA59435F19C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0617F9982F051967"]
+			icon: {
+				id: "sereneseasons:season_sensor"
+			}
+			id: "2F88A6A36C957441"
+			tasks: [{
+				id: "6E29C7016B509570"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F88A6A36C957441"]
+			icon: {
+				id: "minecraft:coarse_dirt"
+			}
+			id: "010B79DA2EAED5BF"
+			tasks: [{
+				id: "633D6B91B358491F"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11AB1DFB9E7D4C89"]
+			icon: {
+				id: "numismatics:spur"
+			}
+			id: "3B9D9017DECF6301"
+			tasks: [{
+				id: "0B1CEFFFF89FA6F2"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B9D9017DECF6301"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "0C351154E07B2F67"
+			shape: "hexagon"
+			tasks: [{
+				id: "17A77DDD3009E56B"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2523925F7D64313D"]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "7891D9DCFE66F172"
+			tasks: [{
+				id: "206AC21EB27FC656"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2523925F7D64313D"]
+			icon: {
+				id: "minecraft:raw_iron"
+			}
+			id: "3F1E7B6F3481567B"
+			tasks: [{
+				id: "48B918B928B05DED"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F1E7B6F3481567B"]
+			icon: {
+				id: "mysticalagriculture:inferium_essence"
+			}
+			id: "2FB698EA36BC30C1"
+			tasks: [{
+				id: "3A2189E9D875C424"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "6B430F5CF9BD1895"
+			tasks: [{
+				id: "2600F8D1220E6477"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "28C3BF25294D2956"
+			tasks: [{
+				id: "2DA53B805104214F"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "793E00C0A6CC4DC0"
+			tasks: [{
+				id: "3D302DA6A21F95F9"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			icon: {
+				id: "minecraft:red_bed"
+			}
+			id: "771CF701D78A925F"
+			tasks: [{
+				id: "16D2396BC42AA793"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "3353A049B98268C3"
+			tasks: [{
+				id: "23DA06B87197359B"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			id: "2DA8F071EDFFF1F3"
+			tasks: [{
+				id: "7C1CFB15D5E7818B"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			id: "4649F442DB270551"
+			tasks: [{
+				id: "784830A9413A0B71"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3353A049B98268C3"]
+			id: "7499021D276C5D55"
+			tasks: [{
+				id: "03CECEFAFE70B467"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DA8F071EDFFF1F3"]
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "5FF344B05CB4190E"
+			tasks: [{
+				id: "6859489FF585B5EB"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+	]
+}

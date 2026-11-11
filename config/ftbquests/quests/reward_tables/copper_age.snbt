@@ -1,0 +1,118 @@
+{
+	icon: {
+		id: "create:orange_toolbox"
+	}
+	id: "64BB2817D10E3B31"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 4
+			id: "4FDCEA02CB59A8B1"
+			item: {
+				count: 1
+				id: "kubejs:rubber"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "62E6372832591841"
+			item: {
+				count: 1
+				id: "kubejs:raw_rubber"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "07E0D4F95652CDB9"
+			item: {
+				count: 1
+				id: "kubejs:sulfur_dust"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "51618D2490C726A7"
+			item: {
+				count: 1
+				id: "create:copper_sheet"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "008D553F04335CB4"
+			item: {
+				count: 1
+				id: "create:fluid_pipe"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "457263F651A98EAC"
+			item: {
+				count: 1
+				id: "minecraft:copper_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "49DBD63DFD82713D"
+			item: {
+				count: 1
+				id: "farmersdelight:rich_soil"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "0BB25B9010263580"
+			item: {
+				count: 1
+				id: "farmersdelight:organic_compost"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "4909FCF66C1F81C3"
+			item: {
+				count: 1
+				id: "agricraft:iron_crop_sticks"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "4991EF5DC54B1623"
+			item: {
+				count: 1
+				id: "create:crushed_raw_iron"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "1F0C81120FDEADB0"
+			item: {
+				count: 1
+				id: "create:copper_casing"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "61F0CEC23527CA2F"
+			item: {
+				count: 1
+				id: "numismatics:bevel"
+			}
+			weight: 6.0f
+		}
+	]
+}

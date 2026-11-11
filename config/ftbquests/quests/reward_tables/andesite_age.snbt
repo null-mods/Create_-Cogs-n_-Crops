@@ -1,0 +1,118 @@
+{
+	icon: {
+		id: "create:light_gray_toolbox"
+	}
+	id: "4E424091A8B5BB04"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "396747C9EA48C820"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "7DD6B5755C375FAA"
+			item: {
+				count: 1
+				id: "create:shaft"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "0105015661094360"
+			item: {
+				count: 1
+				id: "create:cogwheel"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "3CBB3164717284F0"
+			item: {
+				count: 1
+				id: "kubejs:plant_glue"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "4DF4BB663E3550DA"
+			item: {
+				count: 1
+				id: "agricraft:wooden_crop_sticks"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "67B06D37799DD6F1"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "07492C6EF4248AD5"
+			item: {
+				count: 1
+				id: "minecraft:baked_potato"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "0FBB3624E027A92A"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "3169458591770344"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 9
+			id: "26F66BFCE90EBA0C"
+			item: {
+				count: 1
+				id: "minecraft:iron_nugget"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "062AF4E04B48C083"
+			item: {
+				count: 1
+				id: "create:andesite_casing"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "4A9987398B640897"
+			item: {
+				count: 1
+				id: "numismatics:spur"
+			}
+			weight: 6.0f
+		}
+	]
+}

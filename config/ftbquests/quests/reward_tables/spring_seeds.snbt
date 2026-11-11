@@ -1,0 +1,109 @@
+{
+	icon: {
+		id: "minecraft:lime_bundle"
+	}
+	id: "64FC62B390EAA5F0"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 4
+			id: "56D7BD08AA0473F7"
+			item: {
+				count: 1
+				id: "croptopia:lettuce_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "316FE6A4711F9A9A"
+			item: {
+				count: 1
+				id: "croptopia:radish_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "702B277FD28499E4"
+			item: {
+				count: 1
+				id: "croptopia:garlic_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "2442E87799D268D4"
+			item: {
+				count: 1
+				id: "croptopia:spinach_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "37AAB4EA4112D72F"
+			item: {
+				count: 1
+				id: "croptopia:cabbage_seed"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "4A8BEB89C1CCF74A"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "5C977FE4DF4C05B2"
+			item: {
+				count: 1
+				id: "croptopia:asparagus_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "343CAA52E4C4E1EC"
+			item: {
+				count: 1
+				id: "croptopia:celery_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "0387C8B327536F12"
+			item: {
+				count: 1
+				id: "croptopia:leek_seed"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "41AD85EEA550F28E"
+			item: {
+				count: 1
+				id: "croptopia:artichoke_seed"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "54B8CC4B85BEF245"
+			item: {
+				count: 1
+				id: "croptopia:blueberry_seed"
+			}
+			weight: 6.0f
+		}
+	]
+}

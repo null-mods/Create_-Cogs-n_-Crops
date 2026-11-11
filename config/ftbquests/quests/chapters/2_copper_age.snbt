@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "2_copper_age"
+	group: "3D97B793EC4DD29D"
+	id: "65C30D8936E26040"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

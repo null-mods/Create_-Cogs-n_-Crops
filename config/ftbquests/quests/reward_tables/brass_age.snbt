@@ -1,0 +1,89 @@
+{
+	icon: {
+		id: "create:yellow_toolbox"
+	}
+	id: "67CBFB5D7997BA15"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 8
+			id: "01B1831A3DCCBECF"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "69D467E1F4EB6E32"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "5BFA4DBC90C9A40C"
+			item: {
+				count: 1
+				id: "create:polished_rose_quartz"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "0133EC660E51C6FA"
+			item: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "14AD243E74FE86EA"
+			item: {
+				count: 1
+				id: "create:large_cogwheel"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "54770CB6A5357E8C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_essence"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "15C8477EB0CBCDCF"
+			item: {
+				count: 1
+				id: "create:brass_casing"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "184CAB576E90ACA0"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "40D22AFDF343143F"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 5.0f
+		}
+	]
+}

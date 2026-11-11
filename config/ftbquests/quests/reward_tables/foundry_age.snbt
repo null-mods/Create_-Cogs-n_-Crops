@@ -1,0 +1,99 @@
+{
+	icon: {
+		id: "create:gray_toolbox"
+	}
+	id: "37AE859AA3412E81"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 4
+			id: "7A5311BD4DE33151"
+			item: {
+				count: 1
+				id: "createmetallurgy:refractory_mortar"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "58BF730925C2A2FD"
+			item: {
+				count: 1
+				id: "createmetallurgy:graphite"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "724D0C4774B2B39A"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "5EAFDE67BBAF4249"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "0C3B05AC6A7D1C70"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "456CB7FB596369FA"
+			item: {
+				count: 1
+				id: "create:crushed_raw_gold"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "502D4980D4D0E0F9"
+			item: {
+				count: 1
+				id: "create:crushed_raw_zinc"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "31CFB55FFF76D7D5"
+			item: {
+				count: 1
+				id: "createmetallurgy:steel_ingot"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "678A2BA17CDE5474"
+			item: {
+				count: 1
+				id: "create:industrial_iron_block"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "145A22DBE7A10580"
+			item: {
+				count: 1
+				id: "numismatics:sprocket"
+			}
+			weight: 6.0f
+		}
+	]
+}

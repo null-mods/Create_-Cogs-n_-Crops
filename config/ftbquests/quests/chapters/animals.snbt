@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "animals"
+	group: "51563BFE36C68C2A"
+	id: "4ADEA23F7184D454"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:hay_block"
+			}
+			id: "66D2AC6BB23CD1AD"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "664A22F97B2370A2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D2AC6BB23CD1AD"]
+			id: "056E35E362B8BEB1"
+			tasks: [{
+				count: 8L
+				id: "59017DAFD7FE3F86"
+				item: { count: 1, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+}

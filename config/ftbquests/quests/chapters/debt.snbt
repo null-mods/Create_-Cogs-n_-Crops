@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "debt"
+	group: "51563BFE36C68C2A"
+	id: "790678448D85F856"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}
