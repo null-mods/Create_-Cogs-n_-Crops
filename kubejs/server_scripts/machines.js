@@ -1,24 +1,16 @@
 ServerEvents.recipes(event => {
-  event.shaped('kubejs:andesite_machine', ['ABA', 'BCB', 'ABA'], {
-    A: 'create:andesite_alloy',
-    B: 'create:cogwheel',
-    C: 'create:andesite_casing'
-  }).id('kubejs:crafting/andesite_machine')
+  const MACHINES = {
+    andesite_machine: ['create:andesite_casing', 'kubejs:kinetic_mechanism'],
+    copper_machine: ['create:copper_casing', 'kubejs:sealed_mechanism'],
+    foundry_machine: ['create:industrial_iron_block', 'kubejs:refractory_mechanism'],
+    brass_machine: ['create:brass_casing', 'create:precision_mechanism']
+  }
 
-  event.shaped('kubejs:copper_machine', ['ABA', 'BCB', 'ABA'], {
-    A: 'kubejs:rubber',
-    B: 'create:fluid_pipe',
-    C: 'create:copper_casing'
-  }).id('kubejs:crafting/copper_machine')
-
-  event.shaped('kubejs:foundry_machine', ['ABA', 'BCB', 'ABA'], {
-    A: 'createmetallurgy:refractory_mortar',
-    B: 'create:iron_sheet',
-    C: 'create:industrial_iron_block'
-  }).id('kubejs:crafting/foundry_machine')
-
-  event.shaped('kubejs:brass_machine', ['AAA', 'ACA', 'AAA'], {
-    A: 'create:precision_mechanism',
-    C: 'create:brass_casing'
-  }).id('kubejs:crafting/brass_machine')
+  Object.keys(MACHINES).forEach(machine => {
+    const [casing, mechanism] = MACHINES[machine]
+    event.shaped(`kubejs:${machine}`, ['MMM', 'MCM', 'MMM'], {
+      M: mechanism,
+      C: casing
+    }).id(`kubejs:crafting/${machine}`)
+  })
 })

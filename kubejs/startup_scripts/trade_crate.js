@@ -1,0 +1,15 @@
+StartupEvents.registry('block', event => {
+  event.create('trade_crate')
+    .parentModel('merchant_orders:block/trade_crate')
+    .texture('merchant_orders:block/trade_crate')
+    .hardness(2)
+    .resistance(3)
+    .soundType('wood')
+    .tagBlock('minecraft:mineable/axe')
+    .blockEntity(info => {
+      info.inventory('items', ['up', 'down', 'north', 'south', 'east', 'west'], 9, 3, '#kubejs:sellable')
+      info.rightClickOpensInventory('items')
+      info.serverTicking()
+      info.tickFrequency(1200)
+    })
+})

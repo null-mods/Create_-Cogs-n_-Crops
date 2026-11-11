@@ -4,19 +4,19 @@ ServerEvents.tags('item', event => {
 })
 
 ServerEvents.recipes(event => {
-  event.shapeless('2x kubejs:plant_glue', ['minecraft:wheat', 'minecraft:wheat', 'minecraft:water_bucket'])
+  event.shapeless('2x kubejs:plant_glue', ['#c:flours/wheat', '#c:flours/wheat', 'minecraft:water_bucket'])
     .id('kubejs:crafting/plant_glue')
 
   event.custom({
     type: 'create:mixing',
     ingredients: [
-      { item: 'minecraft:wheat' },
+      { tag: 'c:flours/wheat' },
       { type: 'neoforge:single', amount: 100, fluid: 'minecraft:water' }
     ],
     results: [{ id: 'kubejs:plant_glue', count: 2 }]
   }).id('kubejs:mixing/plant_glue')
 
-  event.shaped('kubejs:makeshift_andesite_alloy', ['AG', 'GA'], {
+  event.shaped(Item.of('kubejs:makeshift_andesite_alloy', 2), ['AGA', 'GAG', 'AGA'], {
     A: 'minecraft:andesite',
     G: 'kubejs:plant_glue'
   }).id('kubejs:crafting/makeshift_andesite_alloy')
