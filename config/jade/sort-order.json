@@ -1,7 +1,11 @@
 {
+  "agricraft:crop_block": null,
+  "agricraft:soil": null,
   "balm:jade": null,
+  "create_item_drawers:main": null,
   "create_mobile_packages:bee_port": null,
   "createmetallurgy.jade_plugin:ladle": null,
+  "ftbquests:barrier": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -61,5 +65,15 @@
   "minecraft:total_enchantment_power": null,
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
-  "minecraft:zombie_villager": null
+  "minecraft:zombie_villager": null,
+  "mysticalagriculture:crop": null,
+  "mysticalagriculture:inferium_crop": null,
+  "mysticalagriculture:infused_farmland": null,
+  "productivebees:bee": null,
+  "productivebees:canvas_beehive": null,
+  "productivebees:solitary_nest": null,
+  "stagecoach:coach": null,
+  "toms_storage:inventory_config": null,
+  "toms_storage:inventory_connector": null,
+  "toms_storage:inventory_hopper": null
 }

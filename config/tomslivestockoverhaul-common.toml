@@ -1,0 +1,470 @@
+[biome_temperature]
+	#Thresholds used to sort a spawn location's biome temperature into COLD / TEMPERATE / HOT.
+	#Vanilla biome temperatures roughly range from about -0.5 (frozen peaks) to 2.0 (deserts/badlands);
+	#0.8 is roughly plains/forest. A location is COLD at or below cold_max_temperature,
+	#HOT at or above hot_min_temperature, and TEMPERATE in between.
+	# Default: 0.2
+	# Range: -2.0 ~ 2.0
+	cold_max_temperature = 0.2
+	# Default: 0.95
+	# Range: -2.0 ~ 2.0
+	hot_min_temperature = 0.95
+
+	#Dominance weight per genetic trait. When an animal is heterozygous (carries two
+	#different trait alleles), the allele with the HIGHER weight here determines its visible skin.
+	#Equal weights fall back to whichever allele came from parent A.
+	#Defaults follow the order the traits were designed in, most dominant first; 'default'
+	#(vanilla texture) starts at 0, the most recessive.
+	[dominance_weights.sheep]
+		#sheep's 'patched' trait dominance weight
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		patched = 3.0
+		#sheep's 'rocky' trait dominance weight
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		rocky = 2.0
+		#sheep's 'fuzzy' trait dominance weight
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		fuzzy = 1.0
+		#sheep's 'default' trait dominance weight
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		default = 0.0
+
+	[dominance_weights.chicken]
+		#chicken's 'stormy' trait dominance weight
+		# Default: 7.0
+		# Range: 0.0 ~ 1000.0
+		stormy = 7.0
+		#chicken's 'bronzed' trait dominance weight
+		# Default: 6.0
+		# Range: 0.0 ~ 1000.0
+		bronzed = 6.0
+		#chicken's 'gold_crested' trait dominance weight
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		gold_crested = 5.0
+		#chicken's 'midnight' trait dominance weight
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		midnight = 4.0
+		#chicken's 'skewbald' trait dominance weight
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		skewbald = 3.0
+		#chicken's 'duck' trait dominance weight
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		duck = 2.0
+		#chicken's 'amber' trait dominance weight
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		amber = 1.0
+		#chicken's 'default' trait dominance weight
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		default = 0.0
+
+	[dominance_weights.cow]
+		#cow's 'wooly' trait dominance weight
+		# Default: 7.0
+		# Range: 0.0 ~ 1000.0
+		wooly = 7.0
+		#cow's 'pinto' trait dominance weight
+		# Default: 6.0
+		# Range: 0.0 ~ 1000.0
+		pinto = 6.0
+		#cow's 'dairy' trait dominance weight
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		dairy = 5.0
+		#cow's 'sunset' trait dominance weight
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		sunset = 4.0
+		#cow's 'ashen' trait dominance weight
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		ashen = 3.0
+		#cow's 'cookie' trait dominance weight
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		cookie = 2.0
+		#cow's 'umbra' trait dominance weight
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		umbra = 1.0
+		#cow's 'default' trait dominance weight
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		default = 0.0
+
+	[dominance_weights.pig]
+		#pig's 'spotted' trait dominance weight
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		spotted = 5.0
+		#pig's 'mottled' trait dominance weight
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		mottled = 4.0
+		#pig's 'piebald' trait dominance weight
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		piebald = 3.0
+		#pig's 'pink_footed' trait dominance weight
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		pink_footed = 2.0
+		#pig's 'sooty' trait dominance weight
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		sooty = 1.0
+		#pig's 'default' trait dominance weight
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		default = 0.0
+
+	[dominance_weights.wolf]
+		#wolf's 'ashen' trait dominance weight
+		# Default: 15.0
+		# Range: 0.0 ~ 1000.0
+		ashen = 15.0
+		#wolf's 'basenji' trait dominance weight
+		# Default: 14.0
+		# Range: 0.0 ~ 1000.0
+		basenji = 14.0
+		#wolf's 'black' trait dominance weight
+		# Default: 13.0
+		# Range: 0.0 ~ 1000.0
+		black = 13.0
+		#wolf's 'chestnut' trait dominance weight
+		# Default: 12.0
+		# Range: 0.0 ~ 1000.0
+		chestnut = 12.0
+		#wolf's 'french_bulldog' trait dominance weight
+		# Default: 11.0
+		# Range: 0.0 ~ 1000.0
+		french_bulldog = 11.0
+		#wolf's 'german_shepherd' trait dominance weight
+		# Default: 10.0
+		# Range: 0.0 ~ 1000.0
+		german_shepherd = 10.0
+		#wolf's 'golden_retriever' trait dominance weight
+		# Default: 9.0
+		# Range: 0.0 ~ 1000.0
+		golden_retriever = 9.0
+		#wolf's 'husky' trait dominance weight
+		# Default: 8.0
+		# Range: 0.0 ~ 1000.0
+		husky = 8.0
+		#wolf's 'jupiter' trait dominance weight
+		# Default: 7.0
+		# Range: 0.0 ~ 1000.0
+		jupiter = 7.0
+		#wolf's 'rusty' trait dominance weight
+		# Default: 6.0
+		# Range: 0.0 ~ 1000.0
+		rusty = 6.0
+		#wolf's 'snowy' trait dominance weight
+		# Default: 5.0
+		# Range: 0.0 ~ 1000.0
+		snowy = 5.0
+		#wolf's 'spotted' trait dominance weight
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		spotted = 4.0
+		#wolf's 'striped' trait dominance weight
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		striped = 3.0
+		#wolf's 'white_terrier' trait dominance weight
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		white_terrier = 2.0
+		#wolf's 'woods' trait dominance weight
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		woods = 1.0
+		#wolf's 'default' trait dominance weight
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		default = 0.0
+
+	#Which biome-temperature categories each trait (including 'default', the vanilla texture)
+	#is allowed to naturally spawn in. A wild group's location is checked once when it spawns;
+	#if none of a species' traits are eligible for that biome, 'default' spawns anyway as an
+	#absolute last-resort fallback regardless of this config, so groups are never left without
+	#a trait. This has no effect on breeding: offspring can inherit any allele from their
+	#parents regardless of what biome they're born in.
+	[climate_spawning.sheep]
+
+		[climate_spawning.sheep.patched]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.sheep.rocky]
+			cold = false
+			temperate = true
+			hot = true
+
+		[climate_spawning.sheep.fuzzy]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.sheep.default]
+			cold = false
+			temperate = true
+			hot = true
+
+		[climate_spawning.chicken.stormy]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.chicken.bronzed]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.chicken.gold_crested]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.chicken.midnight]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.chicken.skewbald]
+			cold = false
+			temperate = true
+			hot = true
+
+		[climate_spawning.chicken.duck]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.chicken.amber]
+			cold = false
+			temperate = false
+			hot = true
+
+		[climate_spawning.chicken.default]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.cow.wooly]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.cow.pinto]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.cow.dairy]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.cow.sunset]
+			cold = false
+			temperate = false
+			hot = true
+
+		[climate_spawning.cow.ashen]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.cow.cookie]
+			cold = true
+			temperate = true
+			hot = false
+
+		[climate_spawning.cow.umbra]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.cow.default]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.pig.spotted]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.pig.mottled]
+			cold = true
+			temperate = true
+			hot = false
+
+		[climate_spawning.pig.piebald]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.pig.pink_footed]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.pig.sooty]
+			cold = true
+			temperate = true
+			hot = false
+
+		[climate_spawning.pig.default]
+			cold = false
+			temperate = true
+			hot = true
+
+		[climate_spawning.wolf.ashen]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.wolf.basenji]
+			cold = false
+			temperate = false
+			hot = true
+
+		[climate_spawning.wolf.black]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.chestnut]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.french_bulldog]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.german_shepherd]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.golden_retriever]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.husky]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.wolf.jupiter]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.rusty]
+			cold = false
+			temperate = false
+			hot = true
+
+		[climate_spawning.wolf.snowy]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.wolf.spotted]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.striped]
+			cold = false
+			temperate = false
+			hot = true
+
+		[climate_spawning.wolf.white_terrier]
+			cold = true
+			temperate = false
+			hot = false
+
+		[climate_spawning.wolf.woods]
+			cold = false
+			temperate = true
+			hot = false
+
+		[climate_spawning.wolf.default]
+			cold = true
+			temperate = true
+			hot = true
+
+[crowding]
+	#Controls direct damage + particles applied when too many Pigs, Cows, Sheep, and Chickens
+	#are packed into a small space together - all four species count toward the same limit, and
+	#Wolves are never affected. Animals need room to graze!
+	#Radius in blocks used to count nearby animals around each one.
+	# Default: 3.0
+	# Range: 0.5 ~ 16.0
+	crowd_radius = 3.0
+	#Number of eligible animals within crowd_radius (including the animal itself) before it's considered crammed.
+	# Default: 8
+	# Range: 2 ~ 128
+	crowd_threshold = 8
+	#How often (in ticks) each animal re-checks its surroundings. 20 ticks = 1 second.
+	# Default: 20
+	# Range: 1 ~ 200
+	crowd_check_interval_ticks = 20
+	#Damage dealt per hit while crammed. 1 heart = 2.0.
+	# Default: 2.0
+	# Range: 0.0 ~ 40.0
+	crammed_damage_amount = 2.0
+	#Ticks between each damage hit while crammed. 20 ticks = 1 second; default 100 = 5 seconds.
+	# Default: 100
+	# Range: 20 ~ 2000
+	crammed_damage_interval_ticks = 100
+
+[panic]
+	#Controls panic spreading: when a Pig, Cow, Sheep, or Chicken is attacked, nearby animals
+	#of the same four species flee too, just as if they'd been struck themselves. Doesn't apply
+	#to Wolves.
+	#Radius in blocks around an attacked animal that nearby animals will also panic within.
+	# Default: 8.0
+	# Range: 0.5 ~ 32.0
+	panic_radius = 8.0
+	#Speed multiplier bystanders move at while fleeing (1.0 = normal walk speed).
+	# Default: 1.5
+	# Range: 0.5 ~ 5.0
+	flee_speed = 1.5
+	#How far in blocks a bystander tries to run away from the attacker.
+	# Default: 6.0
+	# Range: 1.0 ~ 20.0
+	flee_distance = 6.0
+
+[shelter_seeking]
+	#Controls Pigs, Cows, Sheep, and Chickens wandering to nearby cover when it's raining or
+	#snowing on them. Doesn't apply to Wolves.
+	#Radius in blocks to randomly search for a covered spot.
+	# Default: 10
+	# Range: 2 ~ 32
+	shelter_search_radius = 10
+	#How often (in ticks) each animal re-checks the weather and re-paths to shelter. 20 ticks = 1 second.
+	# Default: 60
+	# Range: 20 ~ 400
+	shelter_check_interval_ticks = 60
+	#Speed multiplier while heading for shelter (1.0 = normal walk speed).
+	# Default: 1.0
+	# Range: 0.5 ~ 3.0
+	shelter_seek_speed = 1.0

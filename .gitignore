@@ -28,3 +28,4 @@ kubejs/exported/
 kubejs/probe/
 
 command_history.txt
+.mixin.out/
