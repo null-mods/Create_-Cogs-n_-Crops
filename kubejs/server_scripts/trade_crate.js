@@ -31,6 +31,8 @@ const tradeCratePrice = stack => {
   return 0
 }
 
+global.tradeCratePrice = tradeCratePrice
+
 const placeCoins = (block, inv, spurs) => {
   COINS.forEach(([coin, value]) => {
     let amount = Math.floor(spurs / value)
