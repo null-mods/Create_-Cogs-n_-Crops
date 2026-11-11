@@ -17,7 +17,7 @@ Settle these before creating the **final world**. Test worlds can be thrown away
 ## Scope changes
 | Done | Change | Detail |
 |---|---|---|
-| X | **Era 5 removed** (Create Electro Energetics left the pack; its leftover configs deleted) | 4 eras now: Andesite, Copper, Foundry, Brass. Brass Machine is the top tier. Inductive Mechanism, Electric Machine and the era 5 machine table were dropped from this file |
+| | **Era 5 back (planned)** | was removed when Create Electro Energetics left the pack; now planned again after Brass, with reasons to need energy (winter greenhouse, MA tier 5, year-3 debt). See "Era 5: Electric Machine" |
 | X | Clean up `alloys_without_ores.js` (server and client) | still references `electroenergetics:electrum_wire` and `electrum_wire_spool`; harmless now, remove when scripting |
 | | **Village trip by Stagecoach, always** (Feelix's Stagecoach) | no train to the village at any point. Coach stops at the farm and in the village; check if the fare can be Numismatics coins (mod allows XP or items) |
 | | Trains | Create trains stay in era 4 for farm logistics only (not for reaching the village) |
@@ -41,6 +41,7 @@ Settle these before creating the **final world**. Test worlds can be thrown away
 | | Selling Bin: how it works | block `selling_bin:selling_bin` (2-block wide, center + side). Sell, Sell All and **Auto-Sell**; slot for a **Numismatics Bank Card** (money goes straight to the account). Global "Selling Bin Multiplier" in its config |
 | | Selling Bin: coins | built-in datapack `selling_bin_currency_numismatics_coins`: spur 10, bevel 80, sprocket 160, cog 640, crown 5120, sun 40960 value points (1 spur = 10 points). Keep `selling_bin_currency_emeralds` and Starcatcher's `selling_bin_emeralds` off |
 | | Selling Bin: prices | data map `selling_bin:selling_bin_value` (item or tag → `base_value` + processors). Built-in `selling_bin_sellable_foods`: `#c:foods` base 10 with `food_processor` (price grows with hunger and saturation), cake 200, golden apple 200, honey bottle 150. Starcatcher adds fish values. Processors also exist for durability, enchantments, wine age |
+| X | **Selling Bin: packages only** | nothing goes in by hand, funnel or hopper: the `selling_bin:selling_bin_value` data map is emptied (`kubejs/data/selling_bin/data_maps/item/selling_bin_value.json`, `replace: true`), and the bin only accepts items with a value. Sales come from a Create **Packager** attached to the bin: a custom unpacking handler (Create API `UnpackingHandler.REGISTRY`, `startup_scripts/selling_bin.js`) prices the package contents with the Trade Crate table (`trade_crate.js`, in spurs; 1 spur = 10 bin points), adds the total to the bin's stored value and voids the items. A package with any unpriced item stays in the Packager. To test: the handler registers (log line "Selling Bin: package unpacking handler registered"), the data map is really empty (built-in packs may load above KubeJS), and the stored value turns into coins / bank card. JEI/EMI no longer shows bin prices |
 | | Selling Bin: our price table | write our own `selling_bin_value` (kubejs/data) from the recipe-depth tiers already decided (raw 16 = 1 coin ... special 16–64 coins), instead of the generic food processor |
 | | Selling Bin: enabling | built-in datapacks are off by default: pick them at world creation or `/datapack enable`; or ship our own data maps in `kubejs/data` so they load in every world |
 | | Selling Bin: placement | **decided: craftable, the player can sell from the farm.** Keep the original recipe (barrel + wool carpets + wooden slabs). With Auto-Sell and the bank card it also works as the end of an automated production line |
@@ -134,7 +135,10 @@ Blockbench. The four Machines are **placeable decorative blocks** (KubeJS `cardi
 | X | Plant Glue (`kubejs:plant_glue`) | crafting: 2 wheat flour + water bucket | 2 |
 | X | Plant Glue | Mixer: 1 wheat flour + 100 mB water | 2 |
 | X | Makeshift Andesite Alloy (`kubejs:makeshift_andesite_alloy`) | crafting: 5 andesite + 4 Plant Glue (checkerboard, andesite in the corners and center) | 2 |
-| X | Sugar Cane Juice (`kubejs:sugar_cane_juice`, fluid + bucket, "Caldo de Cana") | Press over a Basin (compacting): 2 sugar cane → 250 mB | 250 mB |
+| X | Sugar Cane Juice (`kubejs:sugar_cane_juice`, fluid + bucket, "Caldo de Cana") | Press over a Basin (compacting): 2 sugar cane → 250 mB + 1 Bagasse | 250 mB |
+| X | Bagasse (`kubejs:bagasse`, "Bagaço de Cana") | by-product of the cane juice; furnace fuel (400 ticks); Millstone → paper (sandpaper, books); in `#create:pulpifiable` (pulp → cardboard for Packagers) | 1 |
+| X | Vegetable Oil (`kubejs:vegetable_oil`, fluid + bucket, "Óleo Vegetal") | compacting: 2 olives, 4 soybeans or 1 sunflower → 250 mB. Spout fills a glass bottle → `croptopia:olive_oil`; Item Drain empties it back. Blaze Burner fuel via Create Liquid Fuel (heated, not superheated) | 250 mB |
+| X | Ethanol (`kubejs:ethanol`, fluid + bucket, "Etanol") | Brewin' and Chewin' Keg (fermenting): 1000 mB Sugar Cane Juice + sugar + bagasse → 1000 mB. Blaze Burner fuel that **superheats** (Create Liquid Fuel). Check in game that pipes can pull it out of the keg | 1000 mB |
 | X | Rough Rock Candy (`kubejs:rough_rock_candy`) | heated Mixer: 1000 mB Sugar Cane Juice + 1 stick (Copper era, Blaze Burner) | 1 |
 | X | Polished Rock Candy (`kubejs:polished_rock_candy`) | Rough Rock Candy polished with sandpaper (by hand or Deployer) or in the Metallurgy Belt Grinder | 1 |
 | X | Raw Rubber (`kubejs:raw_rubber`) | Mixer: 250 mB sap (`hearthandharvest:sap`) | 1 |
@@ -144,7 +148,7 @@ Blockbench. The four Machines are **placeable decorative blocks** (KubeJS `cardi
 | X | Rubber (`kubejs:rubber`) | heated Mixer: Raw Rubber + Sulfur Dust | 1 |
 | X | Kinetic Mechanism (manual) | crafting: knife (`#c:tools/knife`, kept with damage) + cogwheel + andesite alloy or Makeshift Andesite Alloy (`#kubejs:andesite_alloys`) + log | 1 |
 | X | Kinetic Mechanism (automated, era 4) | sequenced assembly on wooden slab: deploy andesite alloy, deploy andesite alloy, deploy knife | 1 |
-| X | Sealed Mechanism | crafting: Rubber + Kinetic Mechanism + Rubber (row) | 1 |
+| X | Sealed Mechanism | crafting: Rubber + Kinetic Mechanism + Rubber (row), with a bottle of oil (`croptopia:olive_oil`) under the Kinetic Mechanism | 1 |
 | X | Incomplete Refractory Mechanism | crafting: Sealed Mechanism + refractory mortar + graphite | 1 |
 | X | Refractory Mechanism | sequenced assembly: Spout 1000 mB lava, Spout 1000 mB lava, Press | 1 |
 | X | Andesite Machine | Andesite Casing surrounded by 8 Kinetic Mechanisms (`server_scripts/machines.js`) | 1 |
@@ -160,9 +164,13 @@ Blockbench. The four Machines are **placeable decorative blocks** (KubeJS `cardi
 | | Andesite Alloy | Mixer (`mixing/andesite_alloy`, `..._from_zinc`): output 1 → **2** |
 | X | Makeshift accepted everywhere | **Every** crafting recipe that uses Andesite Alloy also accepts Makeshift Andesite Alloy (tag `kubejs:andesite_alloys`): crafting table, Mechanical Crafter and item application (e.g. Andesite Casing). Mixer, press, saw, stonecutter, sequenced assembly and alloying keep the real alloy. The alloy block is excluded so makeshift cannot be turned into real alloy. `server_scripts/makeshift_alloy.js` |
 | X | Shafts from Makeshift | 2 Makeshift Andesite Alloy (vertical) → **2** shafts (`kubejs:crafting/shaft_from_makeshift_alloy`); the Create shaft recipe is left out of the conversion and keeps 2 Andesite Alloy → 8 |
+| X | Mechanical Belt from rubber | `create:crafting/kinetics/belt_connector`: 6 Rubber instead of 6 dried kelp (same 3x2 shape, 1 belt). Belts become a Copper-era item, after the rubber line. `server_scripts/belts.js` |
+| X | Sails from canvas or wool | White Sail takes `#kubejs:sail_cloth` = any wool or Farmer's Delight Canvas (straw), since there are no sheep. `server_scripts/sails.js` |
+| X | Graphite: charcoal or coal | already the case: the Metallurgy graphite recipe uses `#minecraft:coals` (coal and charcoal); nothing changed |
+| X | Farm → Create links | bagasse, vegetable oil, ethanol and the liquid fuels in `server_scripts/farm_industry.js` and `kubejs/data/createliquidfuel/data_maps/fluid/liquid_fuel.json` |
 | X | Rock Candy replaces Polished Rose Quartz | every recipe that takes `create:polished_rose_quartz` as an ingredient takes `kubejs:polished_rock_candy` instead: Electron Tube, Rose Quartz Lamp, Nixie Board and Large Nixie Tube (Bits 'n' Bobs), drawer Capacity Upgrade T3, Rose Quartz Sheet pressing (Things and Misc, so also the Vibration Mechanism). Stonecutting to rose quartz tiles is untouched (decoration); rose quartz itself stays craftable for decoration. Sugar Cubes keep their H&H recipe. `server_scripts/rock_candy.js` |
 | X | **Metallurgy in the Copper era** | melting and casting start in era 2: Foundry Basin is a Copper Machine recipe, heated by a Blaze Burner made with a lava bucket. Casting table, casting basin, foundry lid and graphite molds were already plain crafting. Era 3 (Foundry Machine) keeps the Foundry Mixer (alloys: brass, steel), Industrial Crucible, Belt Grinder and Crushing Wheel. Copper Age and Brass Age chapters have no quests yet, so nothing had to move; The Pack text now says melting and casting start in Copper Age |
-| X | Precision Mechanism | `sequenced_assembly/precision_mechanism` starts from the Kinetic Mechanism (`server_scripts/mechanisms.js`) |
+| X | Precision Mechanism | rebuilt as `kubejs:sequenced_assembly/precision_mechanism`: starts from the Kinetic Mechanism; deploy cogwheel, large cogwheel, iron nugget, **Polished Rock Candy**; 3 loops (was 5), no scrap outputs (`server_scripts/mechanisms.js`) |
 | | Empty Blaze Burner | netherrack replaced; now Copper Machine + magma block |
 | X | Blaze Burner | shapeless: Empty Blaze Burner + lava bucket + coal block + 2 Sulfur Dust → `blaze_burner` (bucket returned); Copper era, so the Foundry Basin can be heated early (`server_scripts/blaze_burner.js`) |
 | | Cinder Flour uses | replace `cinder_flour` with Sulfur Dust in Blaze Cake and in Create filling recipes (gunpowder, redstone, glowstone) |
@@ -412,6 +420,23 @@ Machine + X in a crafting table (shapeless) and in the Mechanical Crafter. **Cut
 | X | Content Observer | cutter | 2 |
 | X | Track Signal | cutter | 4 |
 
+### Era 5: Electric Machine (planned, after Brass)
+
+**Decided:** Create: Electro Energetics comes back as era 5. Energy must unlock things rotation cannot, for three reasons: winter greenhouse, the end of Mystical Agriculture, and the year-3 debt.
+
+| Done | Item | Plan |
+|---|---|---|
+| | Mod | re-add Create: Electro Energetics; first find out why it left the pack, and list its 1.21.1 blocks (motor, pump, wires, magnet, generators) |
+| | Inductive Mechanism (+ incomplete) | Precision Mechanism + copper wire spool coils + magnet (sequenced assembly) |
+| | Electric Machine | casing to be decided (suggestion: Metallurgy steel block) surrounded by 8 Inductive Mechanisms |
+| | Machine + X | Electric Motor (andesite alloy block), Electric Pump (mechanical pump), Greenhouse Monitor (daylight detector); more once the mod's block list is known |
+
+| Done | Reason | Plan |
+|---|---|---|
+| | 1. Winter greenhouse | AgriCraft greenhouses already ignore seasons (`agricraft.jsonc` → `greenhouse.ignores_seasons = true`), created with the **Greenhouse Monitor** (sneak + use in an enclosed space with ≥ 40% glass ceiling). Today its recipe is cheap (redstone, lapis, 2 glass bottles): remove it and make the monitor **Electric Machine + daylight detector** ("grow lamps"). For winter to really need it, close the other bypasses: Serene Seasons `out_of_season_crop_behavior` 0 (grows slowly) → 1 (can't grow); `underground_fertility_level` 48 → below the world (crops underground grow all year today); Serene's own "glass above the crop" rule (code, no config: test whether it affects `agricraft:crop`). Test whether AgriCraft season requirements and Serene's checks both apply to AgriCraft crops |
+| | 2. End of Mystical Agriculture | tier 5 needs the Inductive Mechanism: Supremium Essence crafting, Master Infusion Crystal and the Awakening Altar recipes take Inductive Mechanisms. Tier 1–4 seeds stay as they are (AgriCraft mutations) |
+| | 3. Year-3 debt | baskets that only era 5 can fill (see "Debt: paid in products", installments 9–12): out-of-season crops (greenhouse), tier 5 MA products, electric-made goods |
+
 ### Keep the original recipe
 Chute, Clutch, Gearshift, Encased Chain Drive, Fluid Valve, Roost, Fishing Net, Andesite/Brass Depositor, Vendor, Bank Terminal, Salepoint, Repackager, Stock Ticker, Factory Gauge, Track Observer, Display Board, Extra Gauges blocks, Gigantic Cogwheel, Nixie Board, Headlamp.
 
@@ -447,7 +472,14 @@ FTB Quests. 9 tabs, already created in game (order as in the book).
 | | 2 | end of summer | Andesite | 32 tomatoes, 32 sugar (sugar cane in the millstone), 8 tomato sauce | first machines (millstone, mixer) and summer crops |
 | | 3 | end of autumn | Copper | 64 wheat, 32 bread, 8 bottles of wine | first wheat harvest; the Copper era wine cellar |
 | | 4 | end of winter | Foundry | 8 aged cheeses, 16 jams or preserves, 32 iron ingots | no harvest in winter: only stored food, plus foundry metal |
-| | 5+ | each season, year 2 | Brass | same kind of baskets at automated-farm scale (e.g. 256 wheat, 64 bread, 16 brass ingots) | needs automation |
+| | 5 | end of spring, year 2 | Brass | 256 baked potatoes, 64 bottles of vegetable oil, 32 Polished Rock Candy | potato line, oil press and the candy chain, all automated |
+| | 6 | end of summer, year 2 | Brass | 128 tomato sauce, 256 sugar, 64 strawberry or melon jams | cooking at scale (mixer, Spout, Packager) |
+| | 7 | end of autumn, year 2 | Brass | 512 wheat, 256 bread, 32 bottles of wine | full grain line: harvester, millstone, mixer, oven |
+| | 8 | end of winter, year 2 | Brass | 64 aged cheeses, 128 preserves, 16 brass ingots, 8 Precision Mechanisms | stockpiled food plus the brass workshop |
+| | 9 | end of spring, year 3 | Electric | 256 pumpkins and 256 corn (autumn crops) | out of season: only a greenhouse grows them |
+| | 10 | end of summer, year 3 | Electric | 64 Supremium Essence, 32 Inductive Mechanisms | tier 5 MA and the electric workshop |
+| | 11 | end of autumn, year 3 | Electric | 256 tomatoes and 256 strawberries (summer crops) | out of season again |
+| | 12 | end of winter, year 3 | Electric | 512 fresh vegetables (any spring/summer crop), 8 Electric Machines | winter harvest from greenhouses; last installment |
 
 | Done | Rule | Detail |
 |---|---|---|
