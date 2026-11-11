@@ -22,5 +22,12 @@
   "item.kubejs.polished_rock_candy": "Bala de Cristal Lapidada",
   "fluid_type.kubejs.sugar_cane_juice": "Caldo de Cana",
   "block.kubejs.sugar_cane_juice": "Caldo de Cana",
-  "item.kubejs.sugar_cane_juice_bucket": "Balde de Caldo de Cana"
+  "item.kubejs.sugar_cane_juice_bucket": "Balde de Caldo de Cana",
+  "item.kubejs.bagasse": "Bagaço de Cana",
+  "fluid_type.kubejs.vegetable_oil": "Óleo Vegetal",
+  "block.kubejs.vegetable_oil": "Óleo Vegetal",
+  "item.kubejs.vegetable_oil_bucket": "Balde de Óleo Vegetal",
+  "fluid_type.kubejs.ethanol": "Etanol",
+  "block.kubejs.ethanol": "Etanol",
+  "item.kubejs.ethanol_bucket": "Balde de Etanol"
 }

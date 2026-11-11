@@ -1,0 +1,14 @@
+{
+  "values": {
+    "kubejs:vegetable_oil": {
+      "burnTime": 10,
+      "superHeat": false,
+      "amountConsumedPerTick": 2
+    },
+    "kubejs:ethanol": {
+      "burnTime": 24,
+      "superHeat": true,
+      "amountConsumedPerTick": 1
+    }
+  }
+}

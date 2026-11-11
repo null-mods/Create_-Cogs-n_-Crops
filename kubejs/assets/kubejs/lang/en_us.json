@@ -22,5 +22,12 @@
   "item.kubejs.polished_rock_candy": "Polished Rock Candy",
   "fluid_type.kubejs.sugar_cane_juice": "Sugar Cane Juice",
   "block.kubejs.sugar_cane_juice": "Sugar Cane Juice",
-  "item.kubejs.sugar_cane_juice_bucket": "Sugar Cane Juice Bucket"
+  "item.kubejs.sugar_cane_juice_bucket": "Sugar Cane Juice Bucket",
+  "item.kubejs.bagasse": "Bagasse",
+  "fluid_type.kubejs.vegetable_oil": "Vegetable Oil",
+  "block.kubejs.vegetable_oil": "Vegetable Oil",
+  "item.kubejs.vegetable_oil_bucket": "Vegetable Oil Bucket",
+  "fluid_type.kubejs.ethanol": "Ethanol",
+  "block.kubejs.ethanol": "Ethanol",
+  "item.kubejs.ethanol_bucket": "Ethanol Bucket"
 }

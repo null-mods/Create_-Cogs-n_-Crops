@@ -7,6 +7,7 @@ StartupEvents.registry('item', event => {
   event.create('iron_rod').tag('c:rods/iron').tag('c:rods')
   event.create('rough_rock_candy')
   event.create('polished_rock_candy')
+  event.create('bagasse').burnTime(400)
 
   event.create('kinetic_mechanism')
   event.create('incomplete_kinetic_mechanism', 'create:sequenced_assembly')

@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 
   const JUICE = 'kubejs:sugar_cane_juice'
 
-  event.recipes.create.compacting(Fluid.of(JUICE, 250), [Item.of('minecraft:sugar_cane', 2)])
+  event.recipes.create.compacting([Fluid.of(JUICE, 250), 'kubejs:bagasse'], [Item.of('minecraft:sugar_cane', 2)])
     .id('kubejs:compacting/sugar_cane_juice')
 
   event.recipes.create.mixing(ROUGH, [
